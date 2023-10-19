@@ -1,0 +1,916 @@
+PARAMETER,PARAMETER_DESC,PARAMETER_COUNT,ANALYTIC_METHOD
+Ag_ppm_AA_F_AR_P,"Silver, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",2430,AA_F_AR_P
+Ag_ppm_AA_F_AZ_H2O2_P,"Silver, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl-H2O2 and MIBK",1,AA_F_AZ_H2O2_P
+Ag_ppm_AA_F_HF,"Silver, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",52,AA_F_HF
+Ag_ppm_AA_F_HNO3_P,"Silver, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",3,AA_F_HNO3_P
+Ag_ppm_AES_AR_P,"Silver, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1124,AES_AR_P
+Ag_ppm_AES_AZ_P,"Silver, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",442,AES_AZ_P
+Ag_ppm_AES_Fuse,"Silver, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",8,AES_Fuse
+Ag_ppm_AES_HF,"Silver, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8851,AES_HF
+Ag_ppm_DCP_AR_P,"Silver, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+Ag_ppm_EPMA,"Silver, in parts per million, by electron probe microanalysis",337,EPMA
+Ag_ppm_ES_SQ,"Silver, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1502,ES_SQ
+Ag_ppm_FA_AA,"Silver, in parts per million, by PbO fire assay and flame-atomic absorption spectrophotometry",443,FA_AA
+Ag_ppm_LAMS,"Silver, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",396,LAMS
+Ag_ppm_MS_AR_P,"Silver, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",129,MS_AR_P
+Ag_ppm_MS_AR_UT_P,"Silver, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Ag_ppm_MS_Fuse,"Silver, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",212,MS_Fuse
+Ag_ppm_MS_HF,"Silver, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10337,MS_HF
+Ag_ppm_MS_HF_UT,"Silver, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Ag_ppm_MS_ST,"Silver, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",367,MS_ST
+Ag_ppm_NA_LC,"Silver, in parts per million, by long count instrumental neutron activation",174,NA_LC
+Ag_ppm_WDX_PP,"Silver, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",13,WDX_PP
+Al_pct_AES_AR_P,"Aluminum, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+Al_pct_AES_Fuse,"Aluminum, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Al_pct_AES_HF,"Aluminum, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19268,AES_HF
+Al_pct_AES_HF_UT,"Aluminum, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Al_pct_AES_ST,"Aluminum, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Al_pct_DCP_Fuse,"Aluminum, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Al_pct_EPMA,"Aluminum, in weight percent, by electron probe microanalysis",487,EPMA
+Al_pct_ES_SQ,"Aluminum, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+Al_pct_LAMS,"Aluminum, in weight percent, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",621,LAMS
+Al_pct_MS_AR_P,"Aluminum, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Al_pct_MS_HF,"Aluminum, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Al_pct_WDX_Fuse,"Aluminum, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1685,WDX_Fuse
+Al_pct_WDX_PP,"Aluminum, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+As_ppm_AA_F_AR_P,"Arsenic, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",171,AA_F_AR_P
+As_ppm_AA_F_AZ_H2O2_P,"Arsenic, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl-H2O2 and MIBK",14,AA_F_AZ_H2O2_P
+As_ppm_AA_F_HF,"Arsenic, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",266,AA_F_HF
+As_ppm_AA_HG_Acid,"Arsenic, in parts per million, by hydride generation-atomic absorption spectrophotometry after HNO3-H2SO4-HClO4 digestion",446,AA_HG_Acid
+As_ppm_AA_HG_AR,"Arsenic, in parts per million, by hydride generation-atomic absorption spectrophotometry after aqua regia digestion",101,AA_HG_AR
+As_ppm_AA_HG_HF,"Arsenic, in parts per million, by hydride generation-atomic absorption spectrophotometry after multi-acid digestion with HF",164,AA_HG_HF
+As_ppm_AA_HG_ST,"Arsenic, in parts per million, by hydride generation-atomic absorption spectrophotometry after sinter digestion",31,AA_HG_ST
+As_ppm_AES_AR_P,"Arsenic, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1501,AES_AR_P
+As_ppm_AES_AZ_P,"Arsenic, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",810,AES_AZ_P
+As_ppm_AES_Fuse,"Arsenic, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",23,AES_Fuse
+As_ppm_AES_HF,"Arsenic, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8580,AES_HF
+As_ppm_CM_Acid_P,"Arsenic, in parts per million, by modified Gutzeit apparatus confined-spot colorimetry after partial digestion",140,CM_Acid_P
+As_ppm_CM_HF,"Arsenic, in parts per million, by spectrophotometry after HF-aqua regia digestion",818,CM_HF
+As_ppm_DCP_AR_P,"Arsenic, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+As_ppm_EPMA,"Arsenic, in parts per million, by electron probe microanalysis",676,EPMA
+As_ppm_ES_Q,"Arsenic, in parts per million, by quantitative direct-current arc emission spectrography",88,ES_Q
+As_ppm_ES_SQ,"Arsenic, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+As_ppm_LAMS,"Arsenic, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",387,LAMS
+As_ppm_MS_AR_P,"Arsenic, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",412,MS_AR_P
+As_ppm_MS_AR_UT_P,"Arsenic, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+As_ppm_MS_Fuse,"Arsenic, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",142,MS_Fuse
+As_ppm_MS_HF,"Arsenic, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10506,MS_HF
+As_ppm_MS_HF_UT,"Arsenic, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+As_ppm_MS_ST,"Arsenic, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+As_ppm_NA_LC,"Arsenic, in parts per million, by long count instrumental neutron activation",305,NA_LC
+As_ppm_NA_SC,"Arsenic, in parts per million, by short count instrumental neutron activation",54,NA_SC
+As_ppm_WDX_PP,"Arsenic, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",16,WDX_PP
+Au_ppm_AA_F_AR_P,"Gold, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",200,AA_F_AR_P
+Au_ppm_AA_F_CN_P,"Gold, in parts per million, by flame-atomic absorption spectrometry after cyanide leach",217,AA_F_CN_P
+Au_ppm_AA_F_HBr,"Gold, in parts per million, by flame-atomic absorption spectrophotometry after HBr-Br2 digestion",756,AA_F_HBr
+Au_ppm_AA_GF_AR_P,"Gold, in parts per million, by graphite furnace-atomic absorption spectrophotometry after partial digestion with aqua regia",202,AA_GF_AR_P
+Au_ppm_AA_GF_HBr,"Gold, in parts per million, by graphite furnace-atomic absorption spectrophotometry after HBr-Br2 digestion",1027,AA_GF_HBr
+Au_ppm_AA_GF_HF,"Gold, in parts per million, by graphite furnace-atomic absorption spectrophotometry after multi-acid digestion with HF and HBr-Br2",154,AA_GF_HF
+Au_ppm_AES_AR_P,"Gold, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",988,AES_AR_P
+Au_ppm_AES_AZ_P,"Gold, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",442,AES_AZ_P
+Au_ppm_AES_HF,"Gold, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1930,AES_HF
+Au_ppm_EPMA,"Gold, in parts per million, by electron probe microanalysis",608,EPMA
+Au_ppm_ES_SQ,"Gold, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Au_ppm_FA_AA,"Gold, in parts per million, by PbO fire assay and flame-atomic absorption spectrophotometry",2041,FA_AA
+Au_ppm_FA_AES,"Gold, in parts per million, by PbO fire assay and inductively coupled plasma-atomic emission spectroscopy",6639,FA_AES
+Au_ppm_FA_DC,"Gold, in parts per million, by PbO fire assay and direct current plasma-atomic emission spectroscopy",130,FA_DC
+Au_ppm_FA_GV,"Gold, in parts per million, by PbO(?) fire assay and gravimetry",61,FA_GV
+Au_ppm_FA_MS,"Gold, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",135,FA_MS
+Au_ppm_LAMS,"Gold, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",347,LAMS
+Au_ppm_MS_AR_P,"Gold, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",99,MS_AR_P
+Au_ppm_MS_AR_UT_P,"Gold, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Au_ppm_MS_Fuse,"Gold, in parts per million by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",25,MS_Fuse
+Au_ppm_MS_HF,"Gold, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",255,MS_HF
+Au_ppm_NA_LC,"Gold, in parts per million, by long count instrumental neutron activation",244,NA_LC
+Au_ppm_NA_SC,"Gold, in parts per million, by short count instrumental neutron activation",59,NA_SC
+Au_ppm_WDX_PP,"Gold, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",4,WDX_PP
+B_ppm_AES_AR_P,"Boron, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",140,AES_AR_P
+B_ppm_AES_Fuse,"Boron, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",539,AES_Fuse
+B_ppm_AES_HF,"Boron, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after multi-acid digestion with HF",331,AES_HF
+B_ppm_AES_ST,"Boron, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",203,AES_ST
+B_ppm_EPMA,"Boron, in parts per million, by electron probe microanalysis",1,EPMA
+B_ppm_ES_SQ,"Boron, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1464,ES_SQ
+B_ppm_MS_AR_P,"Boron, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+B_ppm_MS_AR_UT_P,"Boron, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+B_ppm_MS_Fuse,"Boron, in parts per million by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",25,MS_Fuse
+B_ppm_MS_HF,"Boron, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",3,MS_HF
+B_ppm_MS_ST,"Boron, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",20,MS_ST
+B_ppm_NA_LC,"Boron, in parts per million, by long count instrumental neutron activation; probably prompt gamma activation analysis",255,NA_LC
+Ba_ppm_AES_AR_P,"Barium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",329,AES_AR_P
+Ba_ppm_AES_Fuse,"Barium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",555,AES_Fuse
+Ba_ppm_AES_HF,"Barium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19265,AES_HF
+Ba_ppm_AES_HF_UT,"Barium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Ba_ppm_AES_ST,"Barium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Ba_ppm_DCP_Fuse,"Barium, in parts per million, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Ba_ppm_EDX,"Barium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",439,EDX
+Ba_ppm_ES_SQ,"Barium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Ba_ppm_LAMS,"Barium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",758,LAMS
+Ba_ppm_MS_AR_P,"Barium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Ba_ppm_MS_AR_UT_P,"Barium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Ba_ppm_MS_Fuse,"Barium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",183,MS_Fuse
+Ba_ppm_MS_HF,"Barium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Ba_ppm_MS_ST_REE,"Barium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",67,MS_ST_REE
+Ba_ppm_NA_LC,"Barium, in parts per million, by long count instrumental neutron activation",562,NA_LC
+Ba_ppm_NA_SC,"Barium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Ba_ppm_WDX_Fuse,"Barium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",213,WDX_Fuse
+Ba_ppm_WDX_PP,"Barium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",6,WDX_PP
+Be_ppm_AES_AR_P,"Beryllium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",217,AES_AR_P
+Be_ppm_AES_Fuse,"Beryllium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",352,AES_Fuse
+Be_ppm_AES_HF,"Beryllium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",18657,AES_HF
+Be_ppm_AES_HF_UT,"Beryllium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Be_ppm_AES_ST,"Beryllium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Be_ppm_ES_SQ,"Beryllium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Be_ppm_LAMS,"Beryllium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",23,LAMS
+Be_ppm_MS_HF,"Beryllium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",504,MS_HF
+Be_ppm_MS_ST,"Beryllium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Be_ppm_NA_LC,"Beryllium, in parts per million, by long count instrumental neutron activation; highly questionable that this method was used for Be",252,NA_LC
+Bi_ppm_AA_F_Fuse_P,"Bismuth, in parts per million, by flame-atomic absorption spectrophotometry after K2S2O7 fusion partial digestion",8,AA_F_Fuse_P
+Bi_ppm_AA_F_HF,"Bismuth, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",8,AA_F_HF
+Bi_ppm_AA_F_HNO3_P,"Bismuth, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",10,AA_F_HNO3_P
+Bi_ppm_AES_AR_P,"Bismuth, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",778,AES_AR_P
+Bi_ppm_AES_AZ_P,"Bismuth, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",810,AES_AZ_P
+Bi_ppm_AES_Fuse,"Bismuth, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",89,AES_Fuse
+Bi_ppm_AES_HF,"Bismuth, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8770,AES_HF
+Bi_ppm_ES_Q,"Bismuth, in parts per million, by quantitative direct-current arc emission spectrography",88,ES_Q
+Bi_ppm_ES_SQ,"Bismuth, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Bi_ppm_LAMS,"Bismuth, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",368,LAMS
+Bi_ppm_MS_AR_P,"Bismuth, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",245,MS_AR_P
+Bi_ppm_MS_AR_UT_P,"Bismuth, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Bi_ppm_MS_Fuse,"Bismuth, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",233,MS_Fuse
+Bi_ppm_MS_HF,"Bismuth, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10473,MS_HF
+Bi_ppm_MS_HF_UT,"Bismuth, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Bi_ppm_MS_ST,"Bismuth, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Bi_ppm_NA_LC,"Bismuth, in parts per million, by long count instrumental neutron activation; highly questionable that this method was used for Bi",109,NA_LC
+Bi_ppm_WDX_PP,"Bismuth, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",6,WDX_PP
+Br_ppm_NA_LC,"Bromine, in parts per million, by long count instrumental neutron activation",88,NA_LC
+C_pct_CB_IRC,"Total carbon, in weight percent, by combustion and infrared detector",885,CB_IRC
+C_pct_EPMA,"Total carbon, in weight percent, by electron probe microanalysis",97,EPMA
+Ca_pct_AA_F_Fuse,"Calcium, in weight percent, by flame-atomic absorption spectrophotometry after LiBO2-Li2B4O7 fusion",3,AA_F_Fuse
+Ca_pct_AES_AR_P,"Calcium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",291,AES_AR_P
+Ca_pct_AES_Fuse,"Calcium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Ca_pct_AES_HF,"Calcium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19263,AES_HF
+Ca_pct_AES_HF_UT,"Calcium, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Ca_pct_AES_ST,"Calcium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Ca_pct_DCP_Fuse,"Calcium, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Ca_pct_EPMA,"Calcium, in weight percent, by electron probe microanalysis",156,EPMA
+Ca_pct_ES_SQ,"Calcium, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Ca_pct_MS_AR_P,"Calcium, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Ca_pct_MS_HF,"Calcium, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Ca_pct_NA_LC,"Calcium, in weight percent, by long count instrumental neutron activation",77,NA_LC
+Ca_pct_WDX_Fuse,"Calcium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1685,WDX_Fuse
+Ca_pct_WDX_PP,"Calcium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+CCO3_pct_TT_HCl,"Carbonate carbon, in weight percent, by coulometric titration after HClO4 digestion",119,TT_HCl
+Cd_ppm_AA_F_AZ_H2O2_P,"Cadmium, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl-H2O2 and MIBK",9,AA_F_AZ_H2O2_P
+Cd_ppm_AA_F_HF,"Cadmium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",8,AA_F_HF
+Cd_ppm_AA_F_HNO3_P,"Cadmium, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",10,AA_F_HNO3_P
+Cd_ppm_AES_AR_P,"Cadmium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",710,AES_AR_P
+Cd_ppm_AES_AZ_P,"Cadmium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",810,AES_AZ_P
+Cd_ppm_AES_Fuse,"Cadmium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",87,AES_Fuse
+Cd_ppm_AES_HF,"Cadmium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8795,AES_HF
+Cd_ppm_ES_SQ,"Cadmium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1321,ES_SQ
+Cd_ppm_LAMS,"Cadmium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",46,LAMS
+Cd_ppm_MS_AR_P,"Cadmium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",119,MS_AR_P
+Cd_ppm_MS_AR_UT_P,"Cadmium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Cd_ppm_MS_HF,"Cadmium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10576,MS_HF
+Cd_ppm_MS_HF_UT,"Cadmium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Cd_ppm_MS_ST,"Cadmium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Cd_ppm_NA_LC,"Cadmium, in parts per million, by long count instrumental neutron activation",58,NA_LC
+Cd_ppm_WDX_PP,"Cadmium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",8,WDX_PP
+Ce_ppm_AES_Fuse,"Cerium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",140,AES_Fuse
+Ce_ppm_AES_HF,"Cerium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",2008,AES_HF
+Ce_ppm_EDX,"Cerium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",252,EDX
+Ce_ppm_EPMA,"Cerium, in parts per million, by electron probe microanalysis",79,EPMA
+Ce_ppm_ES_SQ,"Cerium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",112,ES_SQ
+Ce_ppm_LAMS,"Cerium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Ce_ppm_MS_Fuse,"Cerium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Ce_ppm_MS_HF,"Cerium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10161,MS_HF
+Ce_ppm_MS_HF_UT,"Cerium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Ce_ppm_MS_ST,"Cerium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Ce_ppm_MS_ST_REE,"Cerium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Ce_ppm_NA_LC,"Cerium, in parts per million, by long count instrumental neutron activation",107,NA_LC
+Ce_ppm_NA_SC,"Cerium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Cl_pct_CM_ST,"Chlorine, in weight percent, by spectrophotometry after Na2CO3-ZnO sinter digestion",3,CM_ST
+Cl_pct_EPMA,"Chlorine, in weight percent, by electron probe microanalysis",10,EPMA
+Cl_pct_ISE_Fuse,"Chlorine, in weight percent, by ion specific electrode after KOH-NH4NO3 fusion",7,ISE_Fuse
+Cl_pct_ISE_HF,"Chlorine, in weight percent, by ion specific electrode after multi-acid digestion with HF",942,ISE_HF
+Cl_pct_LAMS,"Chlorine, in weight percent, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",60,LAMS
+Cl_pct_NA_LC,"Chlorine, in weight percent, by long count instrumental neutron activation",45,NA_LC
+Co_ppm_AA_F_AR_P,"Cobalt, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",213,AA_F_AR_P
+Co_ppm_AA_F_HF,"Cobalt, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",81,AA_F_HF
+Co_ppm_AES_AR_P,"Cobalt, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",855,AES_AR_P
+Co_ppm_AES_Fuse,"Cobalt, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",252,AES_Fuse
+Co_ppm_AES_HF,"Cobalt, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9015,AES_HF
+Co_ppm_ES_SQ,"Cobalt, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Co_ppm_LAMS,"Cobalt, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",405,LAMS
+Co_ppm_MS_AR_P,"Cobalt, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",68,MS_AR_P
+Co_ppm_MS_AR_UT_P,"Cobalt, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Co_ppm_MS_Fuse,"Cobalt, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",258,MS_Fuse
+Co_ppm_MS_HF,"Cobalt, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10515,MS_HF
+Co_ppm_MS_HF_UT,"Cobalt, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Co_ppm_MS_ST,"Cobalt, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Co_ppm_NA_LC,"Cobalt, in parts per million, by long count instrumental neutron activation",240,NA_LC
+Co_ppm_NA_SC,"Cobalt, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Co_ppm_WDX_PP,"Cobalt, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",10,WDX_PP
+CO2_pct_CB_IRC,"Carbon dioxide, in weight percent, by combustion and infrared detector",186,CB_IRC
+CO2_pct_CP,"Carbon dioxide, in weight percent, by computation",27,CP
+CO2_pct_EPMA,"Carbon dioxide, in weight percent, by electron probe microanalysis",97,EPMA
+CO2_pct_TT_HCl,"Carbon dioxide, in weight percent, by coulometric titration after HClO4 digestion",349,TT_HCl
+CO2_pct_VOL_HCl,"Carbon dioxide, in weight percent, by volumetrics after HCl digestion",1,VOL_HCl
+Corg_pct_CB_HCl,"Organic carbon, in weight percent, by infrared combustion after digestion with HCl",94,CB_HCl
+Corg_pct_CP,"Organic carbon, in weight percent, by computation",146,CP
+Cr_ppm_AES_AR_P,"Chromium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",713,AES_AR_P
+Cr_ppm_AES_Fuse,"Chromium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",539,AES_Fuse
+Cr_ppm_AES_HF,"Chromium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19105,AES_HF
+Cr_ppm_AES_HF_UT,"Chromium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Cr_ppm_AES_ST,"Chromium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Cr_ppm_DCP_Fuse,"Chromium, in parts per million, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Cr_ppm_EDX,"Chromium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",390,EDX
+Cr_ppm_ES_SQ,"Chromium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Cr_ppm_MS_AR_P,"Chromium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Cr_ppm_MS_AR_UT_P,"Chromium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Cr_ppm_MS_Fuse,"Chromium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",207,MS_Fuse
+Cr_ppm_MS_HF,"Chromium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",269,MS_HF
+Cr_ppm_MS_ST,"Chromium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Cr_ppm_NA_LC,"Chromium, in parts per million, by long count instrumental neutron activation",510,NA_LC
+Cr_ppm_NA_SC,"Chromium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Cr_ppm_WDX_Fuse,"Chromium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",619,WDX_Fuse
+Cred_pct_CP,"Carbon, reduced, in weight percent, by computation",27,CP
+Cs_ppm_AES_HF,"Cesium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",46,AES_HF
+Cs_ppm_ES_Q,"Cesium, in parts per million, by quantitative direct-current arc emission spectrography",818,ES_Q
+Cs_ppm_ES_SQ,"Cesium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",12,ES_SQ
+Cs_ppm_MS_AR_P,"Cesium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",4,MS_AR_P
+Cs_ppm_MS_Fuse,"Cesium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",493,MS_Fuse
+Cs_ppm_MS_HF,"Cesium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10287,MS_HF
+Cs_ppm_MS_HF_UT,"Cesium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Cs_ppm_MS_ST,"Cesium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Cs_ppm_NA_LC,"Cesium, in parts per million, by long count instrumental neutron activation",165,NA_LC
+Cs_ppm_NA_SC,"Cesium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Cu_ppm_AA_F_AR_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",2553,AA_F_AR_P
+Cu_ppm_AA_F_AZ_H2O2_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl-H2O2 and MIBK",9,AA_F_AZ_H2O2_P
+Cu_ppm_AA_F_CA_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after citric acid leach",215,AA_F_CA_P
+Cu_ppm_AA_F_CN_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after cyanide leach",2792,AA_F_CN_P
+Cu_ppm_AA_F_H2SO4_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with H2SO4",2792,AA_F_H2SO4_P
+Cu_ppm_AA_F_HF,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",8,AA_F_HF
+Cu_ppm_AA_F_HNO3_P,"Copper, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",7,AA_F_HNO3_P
+Cu_ppm_AES_AR_P,"Copper, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1328,AES_AR_P
+Cu_ppm_AES_AZ_P,"Copper, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",524,AES_AZ_P
+Cu_ppm_AES_Fuse,"Copper, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",356,AES_Fuse
+Cu_ppm_AES_HF,"Copper, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19486,AES_HF
+Cu_ppm_AES_HF_UT,"Copper, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Cu_ppm_AES_ST,"Copper, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Cu_ppm_EDX,"Copper, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",343,EDX
+Cu_ppm_EPMA,"Copper, in parts per million, by electron probe microanalysis",472,EPMA
+Cu_ppm_ES_SQ,"Copper, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Cu_ppm_LAMS,"Copper, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",1060,LAMS
+Cu_ppm_MS_AR_P,"Copper, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",125,MS_AR_P
+Cu_ppm_MS_AR_UT_P,"Copper, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Cu_ppm_MS_Fuse,"Copper, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",69,MS_Fuse
+Cu_ppm_MS_HF,"Copper, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",124,MS_HF
+Cu_ppm_MS_ST,"Copper, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Cu_ppm_NA_LC,"Copper, in parts per million, by long count instrumental neutron activation",60,NA_LC
+Cu_ppm_WDX_PP,"Copper, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",17,WDX_PP
+Dy_ppm_AES_HF,"Dysprosium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Dy_ppm_EPMA,"Dysprosium, in parts per million, by electron probe microanalysis",7,EPMA
+Dy_ppm_ES_SQ,"Dysprosium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Dy_ppm_LAMS,"Dysprosium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Dy_ppm_MS_Fuse,"Dysprosium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Dy_ppm_MS_HF,"Dysprosium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Dy_ppm_MS_ST,"Dysprosium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Dy_ppm_MS_ST_REE,"Dysprosium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Dy_ppm_NA_LC,"Dysprosium, in parts per million, by long count instrumental neutron activation",1,NA_LC
+Er_ppm_AES_HF,"Erbium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Er_ppm_ES_SQ,"Erbium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Er_ppm_LAMS,"Erbium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Er_ppm_MS_Fuse,"Erbium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Er_ppm_MS_HF,"Erbium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Er_ppm_MS_ST,"Erbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",380,MS_ST
+Er_ppm_MS_ST_REE,"Erbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",317,MS_ST_REE
+Eu_ppm_AES_HF,"Europium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1860,AES_HF
+Eu_ppm_ES_SQ,"Europium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",107,ES_SQ
+Eu_ppm_LAMS,"Europium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Eu_ppm_MS_Fuse,"Europium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Eu_ppm_MS_HF,"Europium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Eu_ppm_MS_ST,"Europium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",382,MS_ST
+Eu_ppm_MS_ST_REE,"Europium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Eu_ppm_NA_LC,"Europium, in parts per million, by long count instrumental neutron activation",219,NA_LC
+Eu_ppm_NA_SC,"Europium, in parts per million, by short count instrumental neutron activation",7,NA_SC
+F_pct_CM_HSF,"Fluorine, in weight percent, by colorimetric spectrophotometry after H2SiF6 digestion",8,CM_HSF
+F_pct_EPMA,"Fluorine, in weight percent, by electron probe microanalysis",10,EPMA
+F_pct_ISE_Fuse,"Fluorine, in weight percent, by ion specific electrode after fusion or sinter digestion",1572,ISE_Fuse
+F_pct_NA_LC,"Fluorine, in weight percent, by long count instrumental neutron activation",68,NA_LC
+Fe_pct_AA_F_HF,"Total iron, in weight percent, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",213,AA_F_HF
+Fe_pct_AES_AR_P,"Iron (not differentiated by oxidation state), in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",522,AES_AR_P
+Fe_pct_AES_Fuse,"Total iron, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",789,AES_Fuse
+Fe_pct_AES_HF,"Total iron, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19243,AES_HF
+Fe_pct_AES_HF_UT,"Total iron, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Fe_pct_AES_ST,"Total iron, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Fe_pct_CP,"Total iron, in weight percent, by computation, ferric iron plus ferrous iron",25,CP
+Fe_pct_DCP_Fuse,"Total iron, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Fe_pct_EPMA,"Total iron, in weight percent, by electron probe microanalysis",1300,EPMA
+Fe_pct_ES_SQ,"Total iron, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Fe_pct_MS_AR_P,"Iron (not differentiated by oxidation state), in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Fe_pct_MS_HF,"Total iron, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",38,MS_HF
+Fe_pct_NA_LC,"Total iron, in weight percent, by long count instrumental neutron activation",170,NA_LC
+Fe_pct_NA_SC,"Total iron, in weight percent, by short count instrumental neutron activation",8,NA_SC
+Fe_pct_WDX_Fuse,"Total iron, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1640,WDX_Fuse
+Fe_pct_WDX_PP,"Total iron, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Fe2O3_pct_CP,"Ferric iron, as iron trioxide, in weight percent, by computation, total iron less ferrous iron",141,CP
+FeO_pct_TT_HF,"Ferrous iron, as ferrous oxide, in weight percent, by titration after HF-H2SO4 digestion",705,TT_HF
+Ga_ppm_AES_AR_P,"Gallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",147,AES_AR_P
+Ga_ppm_AES_AZ_P,"Gallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",70,AES_AZ_P
+Ga_ppm_AES_Fuse,"Gallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",23,AES_Fuse
+Ga_ppm_AES_HF,"Gallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8639,AES_HF
+Ga_ppm_EDX,"Gallium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",99,EDX
+Ga_ppm_ES_SQ,"Gallium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",424,ES_SQ
+Ga_ppm_MS_AR_P,"Gallium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",29,MS_AR_P
+Ga_ppm_MS_AR_UT_P,"Gallium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Ga_ppm_MS_Fuse,"Gallium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",370,MS_Fuse
+Ga_ppm_MS_HF,"Gallium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10501,MS_HF
+Ga_ppm_MS_HF_UT,"Gallium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Ga_ppm_MS_ST,"Gallium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",335,MS_ST
+Gd_ppm_AES_HF,"Gadolinium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Gd_ppm_EPMA,"Gadolinium, in parts per million, by electron probe microanalysis",10,EPMA
+Gd_ppm_ES_SQ,"Gadolinium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Gd_ppm_LAMS,"Gadolinium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Gd_ppm_MS_Fuse,"Gadolinium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Gd_ppm_MS_HF,"Gadolinium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Gd_ppm_MS_ST,"Gadolinium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Gd_ppm_MS_ST_REE,"Gadolinium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Gd_ppm_NA_LC,"Gadolinium, in parts per million, by long count instrumental neutron activation",63,NA_LC
+Ge_ppm_ES_SQ,"Germanium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",419,ES_SQ
+Ge_ppm_MS_AR_P,"Germanium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",4,MS_AR_P
+Ge_ppm_MS_Fuse,"Germanium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",361,MS_Fuse
+Ge_ppm_MS_HF,"Germanium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9900,MS_HF
+Ge_ppm_MS_HF_UT,"Germanium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Ge_ppm_MS_ST,"Germanium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+H2O_pct_GV_Flux,"Total water, in weight percent, by gravimetry after heating and combustion with flux",4,GV_Flux
+H2O_pct_TT_Flux,"Total water, in weight percent, by Karl Fischer coulometric titration with flux",63,TT_Flux
+H2Ob_pct_GV_Flux,"Bound or essential water, in weight percent, by gravimetry after heating and combustion with flux",3,GV_Flux
+H2Ob_pct_TT_Flux,"Bound or essential water, in weight percent, by Karl Fischer coulometric titration with flux",143,TT_Flux
+H2Om_pct_GV,"Moisture or nonessential water, in weight percent, by gravimetry after heating",146,GV
+Hf_ppm_ES_SQ,"Hafnium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+Hf_ppm_MS_Fuse,"Hafnium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",493,MS_Fuse
+Hf_ppm_MS_HF,"Hafnium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9738,MS_HF
+Hf_ppm_MS_HF_UT,"Hafnium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Hf_ppm_MS_ST,"Hafnium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Hf_ppm_MS_ST_REE,"Hafnium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",1,MS_ST_REE
+Hf_ppm_NA_LC,"Hafnium, in parts per million, by long count instrumental neutron activation",165,NA_LC
+Hf_ppm_NA_SC,"Hafnium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Hg_ppm_AA_CV,"Mercury, in parts per million, by cold vapor-atomic absorption spectrophotometry after acid digestion",1104,AA_CV
+Hg_ppm_AA_CV_AR,"Mercury, in parts per million, by cold vapor-atomic absorption spectrophotometry after aqua regia digestion",99,AA_CV_AR
+Hg_ppm_AA_CV_WO,"Mercury, in parts per million, by cold vapor-atomic absorption spectrophotometry after acid digestion and wet oxidation",516,AA_CV_WO
+Hg_ppm_AA_TR,"Mercury, in parts per million, by thermal release-atomic absorption spectrophotometry after KBr-H2SO4 digestion",959,AA_TR
+Hg_ppm_AES_AR_P,"Mercury, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1107,AES_AR_P
+Hg_ppm_AES_AZ_P,"Mercury, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",70,AES_AZ_P
+Hg_ppm_AES_HF,"Mercury, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",148,AES_HF
+Hg_ppm_DCP_AR_P,"Mercury, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+Hg_ppm_EPMA,"Mercury, in parts per million, by electron probe microanalysis",356,EPMA
+Hg_ppm_ES_SQ,"Mercury, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",11,ES_SQ
+Hg_ppm_MS_AR,"Mercury, in parts per million, by inductively coupled plasma-mass spectroscopy after digestion with aqua regia",7145,MS_AR
+Hg_ppm_MS_AR_P,"Mercury, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",324,MS_AR_P
+Hg_ppm_MS_AR_UT_P,"Mercury, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Hg_ppm_MS_HF,"Mercury, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",384,MS_HF
+Hg_ppm_NA_LC,"Mercury, in parts per million, by long count instrumental neutron activation",131,NA_LC
+Ho_ppm_AES_HF,"Holmium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1860,AES_HF
+Ho_ppm_ES_SQ,"Holmium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Ho_ppm_LAMS,"Holmium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Ho_ppm_MS_Fuse,"Holmium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Ho_ppm_MS_HF,"Holmium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Ho_ppm_MS_ST,"Holmium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Ho_ppm_MS_ST_REE,"Holmium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Ho_ppm_NA_LC,"Holmium, in parts per million, by long count instrumental neutron activation",64,NA_LC
+In_ppm_AA_F_HF,"Indium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",25,AA_F_HF
+In_ppm_AES_Fuse,"Indium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",8,AES_Fuse
+In_ppm_ES_SQ,"Indium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+In_ppm_MS_AR_P,"Indium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",122,MS_AR_P
+In_ppm_MS_Fuse,"Indium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",165,MS_Fuse
+In_ppm_MS_HF,"Indium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10154,MS_HF
+In_ppm_MS_HF_UT,"Indium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+In_ppm_MS_ST,"Indium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Ir_ppm_FA_MS,"Iridium, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",137,FA_MS
+Ir_ppm_NA_LC,"Iridium, in parts per million, by long count instrumental neutron activation",146,NA_LC
+K_pct_AA_F_HF,"Potassium, in weight percent, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",818,AA_F_HF
+K_pct_AA_FE,"Potassium, in weight percent, by flame emission spectroscopy after multi-acid digestion with HF, or after LiBO2-Li2B4O7 fusion",4,AA_FE
+K_pct_AES_AR_P,"Potassium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",291,AES_AR_P
+K_pct_AES_Fuse,"Potassium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+K_pct_AES_HF,"Potassium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19268,AES_HF
+K_pct_AES_HF_UT,"Potassium, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+K_pct_AES_ST,"Potassium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+K_pct_DCP_Fuse,"Potassium, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+K_pct_ES_SQ,"Potassium, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+K_pct_MS_AR_P,"Potassium, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+K_pct_MS_HF,"Potassium, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+K_pct_NA_LC,"Potassium, in weight percent, by long count instrumental neutron activation",87,NA_LC
+K_pct_WDX_Fuse,"Potassium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1685,WDX_Fuse
+K_pct_WDX_PP,"Potassium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+La_ppm_AES_AR_P,"Lanthanum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",256,AES_AR_P
+La_ppm_AES_Fuse,"Lanthanum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",140,AES_Fuse
+La_ppm_AES_HF,"Lanthanum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8127,AES_HF
+La_ppm_EDX,"Lanthanum, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",253,EDX
+La_ppm_EPMA,"Lanthanum, in parts per million, by electron probe microanalysis",79,EPMA
+La_ppm_ES_SQ,"Lanthanum, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1460,ES_SQ
+La_ppm_LAMS,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+La_ppm_MS_AR_P,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+La_ppm_MS_AR_UT_P,"Lanthanum, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+La_ppm_MS_Fuse,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+La_ppm_MS_HF,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10506,MS_HF
+La_ppm_MS_HF_UT,"Lanthanum, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+La_ppm_MS_ST,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+La_ppm_MS_ST_REE,"Lanthanum, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+La_ppm_NA_LC,"Lanthanum, in parts per million, by long count instrumental neutron activation",165,NA_LC
+La_ppm_NA_SC,"Lanthanum, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Li_ppm_AA_F_HF,"Lithium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",8,AA_F_HF
+Li_ppm_AES_HF,"Lithium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",12018,AES_HF
+Li_ppm_AES_HF_UT,"Lithium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Li_ppm_AES_ST,"Lithium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Li_ppm_ES_Q,"Lithium, in parts per million, by quantitative direct-current arc emission spectrography",818,ES_Q
+Li_ppm_ES_SQ,"Lithium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",130,ES_SQ
+Li_ppm_MS_AR_P,"Lithium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",14,MS_AR_P
+Li_ppm_MS_Fuse,"Lithium, in parts per million by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",25,MS_Fuse
+Li_ppm_MS_HF,"Lithium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",169,MS_HF
+Li_ppm_MS_ST,"Lithium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Li_ppm_NA_LC,"Lithium, in parts per million, by long count instrumental neutron activation; highly questionable that this method was used for Li",59,NA_LC
+LOI_pct_GV,"Loss on ignition, in weight percent, by gravimetry after heating/combustion at 900° - 925°C",2038,GV
+Lu_ppm_ES_SQ,"Lutetium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Lu_ppm_LAMS,"Lutetium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Lu_ppm_MS_Fuse,"Lutetium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Lu_ppm_MS_HF,"Lutetium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Lu_ppm_MS_ST,"Lutetium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Lu_ppm_MS_ST_REE,"Lutetium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",79,MS_ST_REE
+Lu_ppm_NA_LC,"Lutetium, in parts per million, by long count instrumental neutron activation",161,NA_LC
+Lu_ppm_NA_SC,"Lutetium, in parts per million, by short count instrumental neutron activation",7,NA_SC
+Mg_pct_AA_F_Fuse,"Magnesium, in weight percent, by flame-atomic absorption spectrophotometry after LiBO2-Li2B4O7 fusion",12,AA_F_Fuse
+Mg_pct_AES_AR_P,"Magnesium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+Mg_pct_AES_Fuse,"Magnesium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Mg_pct_AES_HF,"Magnesium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19264,AES_HF
+Mg_pct_AES_HF_UT,"Magnesium, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Mg_pct_AES_ST,"Magnesium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Mg_pct_DCP_Fuse,"Magnesium, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Mg_pct_EPMA,"Magnesium, in weight percent, by electron probe microanalysis",97,EPMA
+Mg_pct_ES_SQ,"Magnesium, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Mg_pct_MS_AR_P,"Magnesium, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Mg_pct_MS_HF,"Magnesium, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Mg_pct_WDX_Fuse,"Magnesium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1675,WDX_Fuse
+Mg_pct_WDX_PP,"Magnesium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Mn_pct_AA_F_AR_P,"Manganese, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",213,AA_F_AR_P
+Mn_pct_AES_AR_P,"Manganese, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",935,AES_AR_P
+Mn_pct_AES_Fuse,"Manganese, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Mn_pct_AES_HF,"Manganese, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19264,AES_HF
+Mn_pct_AES_HF_UT,"Manganese, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Mn_pct_AES_ST,"Manganese, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Mn_pct_DCP_Fuse,"Manganese, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Mn_pct_EPMA,"Manganese, in weight percent, by electron probe microanalysis",110,EPMA
+Mn_pct_ES_SQ,"Manganese, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Mn_pct_LAMS,"Manganese, in weight percent, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",100,LAMS
+Mn_pct_MS_AR_P,"Manganese, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Mn_pct_MS_AR_UT_P,"Manganese, in weight percent, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Mn_pct_MS_HF,"Manganese, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Mn_pct_NA_LC,"Manganese, in weight percent, by long count instrumental neutron activation",55,NA_LC
+Mn_pct_WDX_Fuse,"Manganese, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1684,WDX_Fuse
+Mn_pct_WDX_PP,"Manganese, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Mo_ppm_AA_F_AR_P,"Molybdenum, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",2346,AA_F_AR_P
+Mo_ppm_AA_F_Fuse_P,"Molybdenum, in parts per million, by flame-atomic absorption spectrophotometry after K2S2O7 fusion partial digestion",7,AA_F_Fuse_P
+Mo_ppm_AES_AR_P,"Molybdenum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1103,AES_AR_P
+Mo_ppm_AES_AZ_P,"Molybdenum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",442,AES_AZ_P
+Mo_ppm_AES_Fuse,"Molybdenum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",112,AES_Fuse
+Mo_ppm_AES_HF,"Molybdenum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8889,AES_HF
+Mo_ppm_DCP_AR_P,"Molybdenum, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+Mo_ppm_ES_SQ,"Molybdenum, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1460,ES_SQ
+Mo_ppm_LAMS,"Molybdenum, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",330,LAMS
+Mo_ppm_MS_AR_P,"Molybdenum, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",119,MS_AR_P
+Mo_ppm_MS_AR_UT_P,"Molybdenum, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Mo_ppm_MS_Fuse,"Molybdenum, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",151,MS_Fuse
+Mo_ppm_MS_HF,"Molybdenum, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10575,MS_HF
+Mo_ppm_MS_HF_UT,"Molybdenum, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Mo_ppm_MS_ST,"Molybdenum, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",393,MS_ST
+Mo_ppm_NA_LC,"Molybdenum, in parts per million, by long count instrumental neutron activation",166,NA_LC
+Mo_ppm_WDX_PP,"Molybdenum, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",17,WDX_PP
+Na_pct_AA_F_HF,"Sodium, in weight percent, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",831,AA_F_HF
+Na_pct_AA_FE,"Sodium, in weight percent, by flame emission spectroscopy after multi-acid digestion with HF, or after LiBO2-Li2B4O7 fusion",1,AA_FE
+Na_pct_AES_AR_P,"Sodium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+Na_pct_AES_Fuse,"Sodium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Na_pct_AES_HF,"Sodium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19003,AES_HF
+Na_pct_AES_HF_UT,"Sodium, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Na_pct_DCP_Fuse,"Sodium, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Na_pct_EPMA,"Sodium, in weight percent, by electron probe microanalysis",10,EPMA
+Na_pct_ES_SQ,"Sodium, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",429,ES_SQ
+Na_pct_MS_AR_P,"Sodium, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Na_pct_MS_HF,"Sodium, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+Na_pct_NA_LC,"Sodium, in weight percent, by long count instrumental neutron activation",111,NA_LC
+Na_pct_NA_SC,"Sodium, in weight percent, by short count instrumental neutron activation",8,NA_SC
+Na_pct_WDX_Fuse,"Sodium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1663,WDX_Fuse
+Na_pct_WDX_PP,"Sodium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Nb_ppm_AES_Fuse,"Niobium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",268,AES_Fuse
+Nb_ppm_AES_HF,"Niobium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1715,AES_HF
+Nb_ppm_EDX,"Niobium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",409,EDX
+Nb_ppm_ES_SQ,"Niobium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Nb_ppm_MS_Fuse,"Niobium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",443,MS_Fuse
+Nb_ppm_MS_HF,"Niobium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10092,MS_HF
+Nb_ppm_MS_HF_UT,"Niobium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Nb_ppm_MS_ST,"Niobium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Nb_ppm_MS_ST_REE,"Niobium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",1,MS_ST_REE
+Nb_ppm_NA_LC,"Niobium, in parts per million, by long count instrumental neutron activation",161,NA_LC
+Nb_ppm_WDX_Fuse,"Niobium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",10,WDX_Fuse
+Nd_ppm_AES_HF,"Neodymium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1943,AES_HF
+Nd_ppm_EPMA,"Neodymium, in parts per million, by electron probe microanalysis",79,EPMA
+Nd_ppm_ES_SQ,"Neodymium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",73,ES_SQ
+Nd_ppm_LAMS,"Neodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Nd_ppm_MS_Fuse,"Neodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Nd_ppm_MS_HF,"Neodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Nd_ppm_MS_ST,"Neodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Nd_ppm_MS_ST_REE,"Neodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Nd_ppm_NA_LC,"Neodymium, in parts per million, by long count instrumental neutron activation",161,NA_LC
+Nd_ppm_NA_SC,"Neodymium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Ni_ppm_AA_F_AR_P,"Nickel, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",213,AA_F_AR_P
+Ni_ppm_AES_AR_P,"Nickel, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",648,AES_AR_P
+Ni_ppm_AES_Fuse,"Nickel, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",442,AES_Fuse
+Ni_ppm_AES_HF,"Nickel, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19243,AES_HF
+Ni_ppm_AES_HF_UT,"Nickel, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Ni_ppm_AES_ST,"Nickel, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Ni_ppm_EDX,"Nickel, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",263,EDX
+Ni_ppm_EPMA,"Nickel, in parts per million, by electron probe microanalysis",252,EPMA
+Ni_ppm_ES_SQ,"Nickel, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Ni_ppm_LAMS,"Nickel, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",402,LAMS
+Ni_ppm_MS_AR_P,"Nickel, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",99,MS_AR_P
+Ni_ppm_MS_AR_UT_P,"Nickel, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Ni_ppm_MS_Fuse,"Nickel, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",69,MS_Fuse
+Ni_ppm_MS_HF,"Nickel, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",124,MS_HF
+Ni_ppm_MS_ST,"Nickel, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Ni_ppm_NA_LC,"Nickel, in parts per million, by long count instrumental neutron activation",251,NA_LC
+Ni_ppm_NA_SC,"Nickel, in parts per million, by short count instrumental neutron activation",6,NA_SC
+Ni_ppm_WDX_PP,"Nickel, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",9,WDX_PP
+O_pct_EPMA,"Oxygen, in weight percent, by electron probe microanalysis",593,EPMA
+P_pct_AES_AR_P,"Phosphorus, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+P_pct_AES_Fuse,"Phosphorus, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",796,AES_Fuse
+P_pct_AES_HF,"Phosphorus, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",18699,AES_HF
+P_pct_AES_HF_UT,"Phosphorus, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+P_pct_AES_ST,"Phosphorus, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",377,AES_ST
+P_pct_DCP_Fuse,"Phosphorus, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+P_pct_EPMA,"Phosphorus, in weight percent, by electron probe microanalysis",77,EPMA
+P_pct_ES_SQ,"Phosphorus, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",429,ES_SQ
+P_pct_LAMS,"Phosphorus, in weight percent, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",167,LAMS
+P_pct_MS_AR_P,"Phosphorus, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+P_pct_MS_HF,"Phosphorus, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",38,MS_HF
+P_pct_NA_LC,"Phosphorus, in weight percent, by long count instrumental neutron activation",53,NA_LC
+P_pct_WDX_Fuse,"Phosphorus, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1671,WDX_Fuse
+P_pct_WDX_PP,"Phosphorus, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Pb_ppm_AA_F_AR_P,"Lead, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",1566,AA_F_AR_P
+Pb_ppm_AA_F_HF,"Lead, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",2,AA_F_HF
+Pb_ppm_AA_F_HNO3_P,"Lead, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",7,AA_F_HNO3_P
+Pb_ppm_AES_AR_P,"Lead, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1324,AES_AR_P
+Pb_ppm_AES_AZ_P,"Lead, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",442,AES_AZ_P
+Pb_ppm_AES_Fuse,"Lead, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",89,AES_Fuse
+Pb_ppm_AES_HF,"Lead, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8927,AES_HF
+Pb_ppm_EDX,"Lead, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",70,EDX
+Pb_ppm_EPMA,"Lead, in parts per million, by electron probe microanalysis",607,EPMA
+Pb_ppm_ES_SQ,"Lead, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Pb_ppm_LAMS,"Lead, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",1178,LAMS
+Pb_ppm_MS_AR_P,"Lead, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",119,MS_AR_P
+Pb_ppm_MS_AR_UT_P,"Lead, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Pb_ppm_MS_Fuse,"Lead, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",196,MS_Fuse
+Pb_ppm_MS_HF,"Lead, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10576,MS_HF
+Pb_ppm_MS_HF_UT,"Lead, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Pb_ppm_MS_ST,"Lead, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Pb_ppm_NA_LC,"Lead, in parts per million, by long count instrumental neutron activation; highly questionable that this method was used for Pb",54,NA_LC
+Pb_ppm_WDX_PP,"Lead, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",16,WDX_PP
+Pd_ppm_ES_SQ,"Palladium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+Pd_ppm_FA_AES,"Palladium, in parts per million, by PbO(?) fire assay and inductively coupled plasma-atomic emission spectroscopy",6267,FA_AES
+Pd_ppm_FA_MS,"Palladium, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",221,FA_MS
+Pd_ppm_MS_AR_P,"Palladium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",6,MS_AR_P
+Pr_ppm_AES_HF,"Praseodymium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Pr_ppm_EPMA,"Praseodymium, in parts per million, by electron probe microanalysis",12,EPMA
+Pr_ppm_ES_SQ,"Praseodymium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",47,ES_SQ
+Pr_ppm_LAMS,"Praseodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Pr_ppm_MS_Fuse,"Praseodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",476,MS_Fuse
+Pr_ppm_MS_HF,"Praseodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Pr_ppm_MS_ST,"Praseodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Pr_ppm_MS_ST_REE,"Praseodymium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Pt_ppm_ES_SQ,"Platinum, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+Pt_ppm_FA_AES,"Platinum, in parts per million, by PbO(?) fire assay and inductively coupled plasma-atomic emission spectroscopy",6267,FA_AES
+Pt_ppm_FA_MS,"Platinum, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",221,FA_MS
+Pt_ppm_MS_AR_P,"Platinum, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",1,MS_AR_P
+Rb_ppm_AA_F_HF,"Rubidium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",4,AA_F_HF
+Rb_ppm_AES_Fuse,"Rubidium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",41,AES_Fuse
+Rb_ppm_AES_HF,"Rubidium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",46,AES_HF
+Rb_ppm_EDX,"Rubidium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",508,EDX
+Rb_ppm_ES_Q,"Rubidium, in parts per million, by quantitative direct-current arc emission spectrography",818,ES_Q
+Rb_ppm_ES_SQ,"Rubidium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",12,ES_SQ
+Rb_ppm_MS_Fuse,"Rubidium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",471,MS_Fuse
+Rb_ppm_MS_HF,"Rubidium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10162,MS_HF
+Rb_ppm_MS_HF_UT,"Rubidium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Rb_ppm_MS_ST,"Rubidium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Rb_ppm_NA_LC,"Rubidium, in parts per million, by long count instrumental neutron activation",261,NA_LC
+Rb_ppm_NA_SC,"Rubidium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Rb_ppm_WDX_Fuse,"Rubidium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",2,WDX_Fuse
+Re_ppm_ES_SQ,"Rhenium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+Re_ppm_MS_AR_P,"Rhenium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",9,MS_AR_P
+Re_ppm_MS_Fuse,"Rhenium, in parts per million by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",25,MS_Fuse
+Re_ppm_MS_HF,"Rhenium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9743,MS_HF
+Re_ppm_MS_HF_UT,"Rhenium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Rh_ppm_FA_MS,"Rhodium, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",137,FA_MS
+Ru_ppm_FA_MS,"Ruthenium, in parts per million, by NiS fire assay and inductively coupled plasma-mass spectroscopy",137,FA_MS
+S_pct_AES_AR_P,"Sulfur, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",4,AES_AR_P
+S_pct_AES_HF,"Sulfur, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",16968,AES_HF
+S_pct_AES_HF_UT,"Sulfur, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+S_pct_AES_ST,"Sulfur, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",215,AES_ST
+S_pct_CB_IRC,"Sulfur (also called total sulfur), in weight percent, by combustion and infrared detector",1497,CB_IRC
+S_pct_CB_TT,"Sulfur (also called total sulfur), in weight percent, by combustion and iodometric titration",829,CB_TT
+S_pct_EPMA,"Sulfur, in weight percent, by electron probe microanalysis",1201,EPMA
+S_pct_MS_AR_UT_P,"Sulfur, in weight percent, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+S_pct_MS_ST,"Sulfur, in weight percent, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+S_pct_WDX_Fuse,"Sulfur (also called total sulfur), in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",7,WDX_Fuse
+S_pct_WDX_PP,"Sulfur (also called total sulfur), in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",6,WDX_PP
+Sb_ppm_AA_F_Acid_P,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HClO4-HNO3-HCl",7,AA_F_Acid_P
+Sb_ppm_AA_F_AR_P,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",171,AA_F_AR_P
+Sb_ppm_AA_F_Fuse_P,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after K2S2O7 fusion partial digestion",826,AA_F_Fuse_P
+Sb_ppm_AA_F_HCl_P,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl and selective organic extraction with TOPO/MIBK",16,AA_F_HCl_P
+Sb_ppm_AA_F_HF,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",161,AA_F_HF
+Sb_ppm_AA_F_KClO3_P,"Antimony, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with KClO3",95,AA_F_KClO3_P
+Sb_ppm_AA_GF_HF,"Antimony, in parts per million, by graphite furnace-atomic absorption spectrophotometry after multi-acid digestion with HF",123,AA_GF_HF
+Sb_ppm_AA_HG_AR,"Antimony, in parts per million, by hydride generation-atomic absorption spectrophotometry after aqua regia digestion",376,AA_HG_AR
+Sb_ppm_AA_HG_ST,"Antimony, in parts per million, by hydride generation-atomic absorption spectrophotometry after sinter digestion",31,AA_HG_ST
+Sb_ppm_AES_AR_P,"Antimony, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1333,AES_AR_P
+Sb_ppm_AES_AZ_P,"Antimony, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",810,AES_AZ_P
+Sb_ppm_AES_HF,"Antimony, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after multi-acid digestion with HF",6720,AES_HF
+Sb_ppm_DCP_AR_P,"Antimony, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+Sb_ppm_EPMA,"Antimony, in parts per million, by electron probe microanalysis",358,EPMA
+Sb_ppm_ES_SQ,"Antimony, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Sb_ppm_LAMS,"Antimony, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",368,LAMS
+Sb_ppm_MS_AR_P,"Antimony, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",417,MS_AR_P
+Sb_ppm_MS_AR_UT_P,"Antimony, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Sb_ppm_MS_Fuse,"Antimony, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",161,MS_Fuse
+Sb_ppm_MS_HF,"Antimony, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10501,MS_HF
+Sb_ppm_MS_HF_UT,"Antimony, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Sb_ppm_MS_ST,"Antimony, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Sb_ppm_NA_LC,"Antimony, in parts per million, by long count instrumental neutron activation",353,NA_LC
+Sb_ppm_NA_SC,"Antimony, in parts per million, by short count instrumental neutron activation",61,NA_SC
+Sb_ppm_WDX_PP,"Antimony, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",15,WDX_PP
+Sc_ppm_AES_AR_P,"Scandium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",147,AES_AR_P
+Sc_ppm_AES_Fuse,"Scandium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",352,AES_Fuse
+Sc_ppm_AES_HF,"Scandium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",18579,AES_HF
+Sc_ppm_AES_HF_UT,"Scandium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7090,AES_HF_UT
+Sc_ppm_AES_ST,"Scandium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Sc_ppm_ES_SQ,"Scandium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1444,ES_SQ
+Sc_ppm_MS_AR_UT_P,"Scandium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Sc_ppm_MS_HF,"Scandium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",433,MS_HF
+Sc_ppm_NA_LC,"Scandium, in parts per million, by long count instrumental neutron activation",294,NA_LC
+Sc_ppm_NA_SC,"Scandium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Se_ppm_AA_GF_HF,"Selenium, in parts per million, by graphite furnace-atomic absorption spectrophotometry after multi-acid digestion with HF",103,AA_GF_HF
+Se_ppm_AA_HG_Acid,"Selenium, in parts per million, by hydride generation-atomic absorption spectrophotometry after multi-acid digestion without HF",863,AA_HG_Acid
+Se_ppm_AA_HG_HF,"Selenium, in parts per million, by hydride generation-atomic absorption spectrophotometry after multi-acid digestion with HF",294,AA_HG_HF
+Se_ppm_AES_AR_P,"Selenium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",244,AES_AR_P
+Se_ppm_AES_AZ_P,"Selenium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",70,AES_AZ_P
+Se_ppm_EPMA,"Selenium, in parts per million, by electron probe microanalysis",318,EPMA
+Se_ppm_ES_SQ,"Selenium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",10,ES_SQ
+Se_ppm_LAMS,"Selenium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",352,LAMS
+Se_ppm_MS_AR_P,"Selenium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",94,MS_AR_P
+Se_ppm_MS_AR_UT_P,"Selenium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",77,MS_AR_UT_P
+Se_ppm_MS_HF,"Selenium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9777,MS_HF
+Se_ppm_MS_HF_UT,"Selenium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Se_ppm_MS_ST,"Selenium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",172,MS_ST
+Se_ppm_NA_LC,"Selenium, in parts per million, by long count instrumental neutron activation",152,NA_LC
+Se_ppm_WDX_PP,"Selenium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",6,WDX_PP
+Si_pct_AES_Fuse,"Silicon, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Si_pct_AES_HF,"Silicon, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",784,AES_HF
+Si_pct_AES_ST,"Silicon, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",215,AES_ST
+Si_pct_CM_Fuse,"Silicon, in weight percent, by colorimetric spectrophotometry after NaOH or LiBO2-Li2B4O7 fusion",10,CM_Fuse
+Si_pct_DCP_Fuse,"Silicon, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Si_pct_EPMA,"Silicon, in weight percent, by electron probe microanalysis",509,EPMA
+Si_pct_ES_SQ,"Silicon, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+Si_pct_LAMS,"Silicon, in weight percent,, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",54,LAMS
+Si_pct_WDX_Fuse,"Silicon, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1663,WDX_Fuse
+Si_pct_WDX_PP,"Silicon, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Sm_ppm_AES_HF,"Samarium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Sm_ppm_EPMA,"Samarium, in parts per million, by electron probe microanalysis",11,EPMA
+Sm_ppm_ES_SQ,"Samarium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",75,ES_SQ
+Sm_ppm_LAMS,"Samarium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Sm_ppm_MS_Fuse,"Samarium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Sm_ppm_MS_HF,"Samarium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Sm_ppm_MS_ST,"Samarium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Sm_ppm_MS_ST_REE,"Samarium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Sm_ppm_NA_LC,"Samarium, in parts per million, by long count instrumental neutron activation",161,NA_LC
+Sm_ppm_NA_SC,"Samarium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Sn_ppm_AA_F_Fuse,"Tin, in parts per million, by flame-atomic absorption spectrophotometry after LiBO2 fusion",8,AA_F_Fuse
+Sn_ppm_AA_F_HF,"Tin, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",194,AA_F_HF
+Sn_ppm_AES_HF,"Tin, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1747,AES_HF
+Sn_ppm_ES_SQ,"Tin, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Sn_ppm_MS_Fuse,"Tin, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",483,MS_Fuse
+Sn_ppm_MS_HF,"Tin, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10060,MS_HF
+Sn_ppm_MS_HF_UT,"Tin, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Sn_ppm_MS_ST,"Tin, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Sn_ppm_MS_ST_REE,"Tin, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",1,MS_ST_REE
+Sn_ppm_NA_LC,"Tin, in parts per million, by long count instrumental neutron activation",274,NA_LC
+Sn_ppm_WDX_Fuse,"Tin, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",2,WDX_Fuse
+SO3_pct_CB_IRC,"Sulfite, in weight percent, may actually be sulfur expressed as SO3, by combustion and infrared detector",38,CB_IRC
+SO4_pct_CB_IRC,"Sulfate, in weight percent, by combustion and infrared detector, acid-soluble SO4 computed as total S less HCl-soluble S",25,CB_IRC
+Sr_ppm_AA_F_Fuse,"Strontium, in parts per million, by flame-atomic absorption spectrophotometry after fusion",4,AA_F_Fuse
+Sr_ppm_AES_AR_P,"Strontium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+Sr_ppm_AES_Fuse,"Strontium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",656,AES_Fuse
+Sr_ppm_AES_HF,"Strontium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19270,AES_HF
+Sr_ppm_AES_HF_UT,"Strontium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Sr_ppm_AES_ST,"Strontium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",401,AES_ST
+Sr_ppm_EDX,"Strontium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",508,EDX
+Sr_ppm_EPMA,"Strontium, in parts per million, by electron probe microanalysis",111,EPMA
+Sr_ppm_ES_SQ,"Strontium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Sr_ppm_LAMS,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",705,LAMS
+Sr_ppm_MS_AR_P,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Sr_ppm_MS_AR_UT_P,"Strontium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Sr_ppm_MS_Fuse,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",146,MS_Fuse
+Sr_ppm_MS_HF,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",184,MS_HF
+Sr_ppm_MS_ST,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Sr_ppm_MS_ST_REE,"Strontium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",66,MS_ST_REE
+Sr_ppm_NA_LC,"Strontium, in parts per million, by long count instrumental neutron activation",368,NA_LC
+Sr_ppm_NA_SC,"Strontium, in parts per million, by short count instrumental neutron activation",5,NA_SC
+Sr_ppm_WDX_Fuse,"Strontium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",211,WDX_Fuse
+Sred_pct_CP,"Reduced sulfur, in weight percent, calculated as the difference between SO4 calculated from total sulfur and SO4 analyzed directly by CB_IRC",25,CP
+Ta_ppm_AES_Fuse,"Tantalum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",140,AES_Fuse
+Ta_ppm_AES_HF,"Tantalum, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1860,AES_HF
+Ta_ppm_ES_SQ,"Tantalum, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+Ta_ppm_MS_Fuse,"Tantalum, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",493,MS_Fuse
+Ta_ppm_MS_HF,"Tantalum, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9684,MS_HF
+Ta_ppm_MS_HF_UT,"Tantalum, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Ta_ppm_MS_ST,"Tantalum, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Ta_ppm_NA_LC,"Tantalum, in parts per million, by long count instrumental neutron activation",219,NA_LC
+Ta_ppm_NA_SC,"Tantalum, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Tb_ppm_AES_HF,"Terbium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF
+Tb_ppm_ES_SQ,"Terbium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Tb_ppm_LAMS,"Terbium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Tb_ppm_MS_Fuse,"Terbium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",476,MS_Fuse
+Tb_ppm_MS_HF,"Terbium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Tb_ppm_MS_ST,"Terbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Tb_ppm_MS_ST_REE,"Terbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Tb_ppm_NA_LC,"Terbium, in parts per million, by long count instrumental neutron activation",161,NA_LC
+Tb_ppm_NA_SC,"Terbium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Te_ppm_AA_F_HBr,"Tellurium, in parts per million, by flame-atomic absorption spectrophotometry after HBr-Br2 digestion",228,AA_F_HBr
+Te_ppm_AA_F_HF,"Tellurium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",185,AA_F_HF
+Te_ppm_AA_GF_HBr,"Tellurium, in parts per million, by graphite furnace-atomic absorption spectrophotometry after HBr-Br2 digestion",1048,AA_GF_HBr
+Te_ppm_AA_GF_HF,"Tellurium, in parts per million, by graphite furnace-atomic absorption spectrophotometry after multi-acid digestion with HF and HBr-Br2",90,AA_GF_HF
+Te_ppm_AA_HG_HF,"Tellurium, in parts per million, by hydride generation-atomic absorption spectrophotometry after multi-acid digestion with HF",233,AA_HG_HF
+Te_ppm_AES_AR_P,"Tellurium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",74,AES_AR_P
+Te_ppm_AES_AZ_P,"Tellurium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",70,AES_AZ_P
+Te_ppm_EPMA,"Tellurium, in parts per million, by electron probe microanalysis",455,EPMA
+Te_ppm_ES_SQ,"Tellurium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+Te_ppm_LAMS,"Tellurium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",393,LAMS
+Te_ppm_MS_AR_P,"Tellurium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",271,MS_AR_P
+Te_ppm_MS_AR_UT_P,"Tellurium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",79,MS_AR_UT_P
+Te_ppm_MS_HF,"Tellurium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10299,MS_HF
+Te_ppm_MS_HF_UT,"Tellurium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Te_ppm_MS_ST,"Tellurium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",223,MS_ST
+Te_ppm_NA_LC,"Tellurium, in parts per million, by long count instrumental neutron activation",58,NA_LC
+Te_ppm_WDX_PP,"Tellurium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",10,WDX_PP
+Th_ppm_AES_AR_P,"Thorium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",140,AES_AR_P
+Th_ppm_AES_HF,"Thorium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8580,AES_HF
+Th_ppm_DN,"Thorium, in parts per million, by delayed neutron counting",391,DN
+Th_ppm_EPMA,"Thorium, in parts per million, by electron probe microanalysis",65,EPMA
+Th_ppm_ES_SQ,"Thorium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1309,ES_SQ
+Th_ppm_LAMS,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",705,LAMS
+Th_ppm_MS_AR_P,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Th_ppm_MS_AR_UT_P,"Thorium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+Th_ppm_MS_Fuse,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Th_ppm_MS_HF,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10327,MS_HF
+Th_ppm_MS_HF_UT,"Thorium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Th_ppm_MS_ST,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Th_ppm_MS_ST_REE,"Thorium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",66,MS_ST_REE
+Th_ppm_NA_LC,"Thorium, in parts per million, by long count instrumental neutron activation",164,NA_LC
+Th_ppm_NA_SC,"Thorium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Ti_pct_AES_AR_P,"Titanium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+Ti_pct_AES_Fuse,"Titanium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",797,AES_Fuse
+Ti_pct_AES_HF,"Titanium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19268,AES_HF
+Ti_pct_AES_HF_UT,"Titanium, in weight percent, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7143,AES_HF_UT
+Ti_pct_AES_ST,"Titanium, in weight percent, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Ti_pct_DCP_Fuse,"Titanium, in weight percent, by direct current plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",109,DCP_Fuse
+Ti_pct_EPMA,"Titanium, in weight percent, by electron probe microanalysis",58,EPMA
+Ti_pct_ES_SQ,"Titanium, in weight percent, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Ti_pct_MS_AR_P,"Titanium, in weight percent, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+Ti_pct_MS_HF,"Titanium, in weight percent, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",38,MS_HF
+Ti_pct_NA_LC,"Titanium, in weight percent, by long count instrumental neutron activation",257,NA_LC
+Ti_pct_WDX_Fuse,"Titanium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1673,WDX_Fuse
+Ti_pct_WDX_PP,"Titanium, in weight percent, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",106,WDX_PP
+Tl_ppm_AA_F_HF,"Thallium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",1601,AA_F_HF
+Tl_ppm_AA_GF_HF,"Thallium, in parts per million, by graphite furnace-atomic absorption spectrophotometry after multi-acid digestion with HF and HBr-Br2",315,AA_GF_HF
+Tl_ppm_AA_GF_ST,"Thallium, in parts per million, by graphite furnace-atomic absorption spectrophotometry after Na2O2 sinter digestion",66,AA_GF_ST
+Tl_ppm_AES_AR_P,"Thallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",542,AES_AR_P
+Tl_ppm_AES_AZ_P,"Thallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",70,AES_AZ_P
+Tl_ppm_AES_HF,"Thallium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after multi-acid digestion with HF",6701,AES_HF
+Tl_ppm_DCP_AR_P,"Thallium, in parts per million, by direct current plasma-atomic emission spectroscopy after partial digestion with aqua regia",82,DCP_AR_P
+Tl_ppm_EPMA,"Thallium, in parts per million, by electron probe microanalysis",316,EPMA
+Tl_ppm_ES_SQ,"Thallium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",118,ES_SQ
+Tl_ppm_LAMS,"Thallium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",344,LAMS
+Tl_ppm_MS_AR_P,"Thallium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",352,MS_AR_P
+Tl_ppm_MS_AR_UT_P,"Thallium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Tl_ppm_MS_Fuse,"Thallium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",266,MS_Fuse
+Tl_ppm_MS_HF,"Thallium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10466,MS_HF
+Tl_ppm_MS_HF_UT,"Thallium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Tl_ppm_MS_ST,"Thallium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Tl_ppm_WDX_PP,"Thallium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",15,WDX_PP
+Tm_ppm_ES_SQ,"Thulium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",62,ES_SQ
+Tm_ppm_LAMS,"Thulium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Tm_ppm_MS_Fuse,"Thulium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Tm_ppm_MS_HF,"Thulium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Tm_ppm_MS_ST,"Thulium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Tm_ppm_MS_ST_REE,"Thulium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",295,MS_ST_REE
+Tm_ppm_NA_LC,"Thulium, in parts per million, by long count instrumental neutron activation",62,NA_LC
+Tm_ppm_NA_SC,"Thulium, in parts per million, by short count instrumental neutron activation",1,NA_SC
+U_ppm_AES_AR_P,"Uranium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",287,AES_AR_P
+U_ppm_AES_Fuse,"Uranium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",71,AES_Fuse
+U_ppm_AES_HF,"Uranium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",8574,AES_HF
+U_ppm_DN,"Uranium, in parts per million, by delayed neutron counting",402,DN
+U_ppm_EPMA,"Uranium, in parts per million, by electron probe microanalysis",65,EPMA
+U_ppm_ES_SQ,"Uranium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",108,ES_SQ
+U_ppm_FL_HF,"Uranium, in parts per million, by fluorometry after HF digestion",820,FL_HF
+U_ppm_GRC,"Uranium, in parts per million, as equivalent U by beta-gamma counting",46,GRC
+U_ppm_LAMS,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",704,LAMS
+U_ppm_MS_AR_P,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+U_ppm_MS_AR_UT_P,"Uranium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+U_ppm_MS_Fuse,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+U_ppm_MS_HF,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10449,MS_HF
+U_ppm_MS_HF_UT,"Uranium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+U_ppm_MS_ST,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+U_ppm_MS_ST_REE,"Uranium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",78,MS_ST_REE
+U_ppm_NA_LC,"Uranium, in parts per million, by long count instrumental neutron activation",218,NA_LC
+U_ppm_NA_SC,"Uranium, in parts per million, by short count instrumental neutron activation",8,NA_SC
+V_ppm_AA_F_HF,"Vanadium, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",213,AA_F_HF
+V_ppm_AES_AR_P,"Vanadium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",687,AES_AR_P
+V_ppm_AES_Fuse,"Vanadium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",506,AES_Fuse
+V_ppm_AES_HF,"Vanadium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19290,AES_HF
+V_ppm_AES_HF_UT,"Vanadium, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+V_ppm_AES_ST,"Vanadium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+V_ppm_ES_SQ,"Vanadium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+V_ppm_LAMS,"Vanadium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",93,LAMS
+V_ppm_MS_AR_P,"Vanadium, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+V_ppm_MS_AR_UT_P,"Vanadium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+V_ppm_MS_Fuse,"Vanadium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",113,MS_Fuse
+V_ppm_MS_HF,"Vanadium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",49,MS_HF
+V_ppm_MS_ST,"Vanadium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+V_ppm_NA_LC,"Vanadium, in parts per million, by long count instrumental neutron activation",55,NA_LC
+V_ppm_WDX_Fuse,"Vanadium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",174,WDX_Fuse
+W_ppm_AES_AR_P,"Tungsten, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",435,AES_AR_P
+W_ppm_AES_Fuse,"Tungsten, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",89,AES_Fuse
+W_ppm_AES_HF,"Tungsten, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",6797,AES_HF
+W_ppm_CM_HF,"Tungsten, in parts per million, by colorimetric spectrophotometry after multi-acid digestion with HF",2920,CM_HF
+W_ppm_ES_SQ,"Tungsten, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+W_ppm_MS_AR_P,"Tungsten, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",62,MS_AR_P
+W_ppm_MS_AR_UT_P,"Tungsten, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",52,MS_AR_UT_P
+W_ppm_MS_Fuse,"Tungsten, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",493,MS_Fuse
+W_ppm_MS_HF,"Tungsten, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10449,MS_HF
+W_ppm_MS_HF_UT,"Tungsten, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+W_ppm_MS_ST,"Tungsten, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+W_ppm_NA_LC,"Tungsten, in parts per million, by long count instrumental neutron activation",365,NA_LC
+W_ppm_NA_SC,"Tungsten, in parts per million, by short count instrumental neutron activation",1,NA_SC
+Y_ppm_AES_Fuse,"Yttrium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",393,AES_Fuse
+Y_ppm_AES_HF,"Yttrium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",2051,AES_HF
+Y_ppm_EDX,"Yttrium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",508,EDX
+Y_ppm_EPMA,"Yttrium, in parts per million, by electron probe microanalysis",19,EPMA
+Y_ppm_ES_SQ,"Yttrium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1460,ES_SQ
+Y_ppm_LAMS,"Yttrium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Y_ppm_MS_Fuse,"Yttrium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",368,MS_Fuse
+Y_ppm_MS_HF,"Yttrium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",10147,MS_HF
+Y_ppm_MS_HF_UT,"Yttrium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Y_ppm_MS_ST,"Yttrium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",391,MS_ST
+Y_ppm_MS_ST_REE,"Yttrium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",79,MS_ST_REE
+Y_ppm_NA_LC,"Yttrium, in parts per million, by long count instrumental neutron activation",313,NA_LC
+Yb_ppm_AES_HF,"Ytterbium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1860,AES_HF
+Yb_ppm_ES_SQ,"Ytterbium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",106,ES_SQ
+Yb_ppm_LAMS,"Ytterbium, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",798,LAMS
+Yb_ppm_MS_Fuse,"Ytterbium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",485,MS_Fuse
+Yb_ppm_MS_HF,"Ytterbium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",96,MS_HF
+Yb_ppm_MS_ST,"Ytterbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",383,MS_ST
+Yb_ppm_MS_ST_REE,"Ytterbium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",307,MS_ST_REE
+Yb_ppm_NA_LC,"Ytterbium, in parts per million, by long count instrumental neutron activation",219,NA_LC
+Yb_ppm_NA_SC,"Ytterbium, in parts per million, by short count instrumental neutron activation",7,NA_SC
+Zn_ppm_AA_F_AR_P,"Zinc, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with aqua regia",1473,AA_F_AR_P
+Zn_ppm_AA_F_AZ_H2O2_P,"Zinc, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with HCl-H2O2 and MIBK",9,AA_F_AZ_H2O2_P
+Zn_ppm_AA_F_HF,"Zinc, in parts per million, by flame-atomic absorption spectrophotometry after multi-acid digestion with HF",11,AA_F_HF
+Zn_ppm_AA_F_HNO3_P,"Zinc, in parts per million, by flame-atomic absorption spectrophotometry after partial digestion with hot HNO3",839,AA_F_HNO3_P
+Zn_ppm_AES_AR_P,"Zinc, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with aqua regia",1351,AES_AR_P
+Zn_ppm_AES_AZ_P,"Zinc, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after partial digestion with H2O2-HCl leach and DIBK extract",810,AES_AZ_P
+Zn_ppm_AES_Fuse,"Zinc, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",356,AES_Fuse
+Zn_ppm_AES_HF,"Zinc, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",19412,AES_HF
+Zn_ppm_AES_HF_AG,"Zinc, in parts per million, in ore-grade samples by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",1,AES_HF_AG
+Zn_ppm_AES_HF_UT,"Zinc, in parts per million, by ultratrace inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,AES_HF_UT
+Zn_ppm_AES_ST,"Zinc, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",383,AES_ST
+Zn_ppm_EDX,"Zinc, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",331,EDX
+Zn_ppm_EPMA,"Zinc, in parts per million, by electron probe microanalysis",474,EPMA
+Zn_ppm_ES_SQ,"Zinc, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1321,ES_SQ
+Zn_ppm_LAMS,"Zinc, in parts per million, by inductively coupled plasma-mass spectroscopy after laser ablation decomposition",833,LAMS
+Zn_ppm_MS_AR_P,"Zinc, in parts per million, by inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",119,MS_AR_P
+Zn_ppm_MS_AR_UT_P,"Zinc, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after partial digestion with aqua regia",78,MS_AR_UT_P
+Zn_ppm_MS_Fuse,"Zinc, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",69,MS_Fuse
+Zn_ppm_MS_HF,"Zinc, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",109,MS_HF
+Zn_ppm_MS_ST,"Zinc, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",8,MS_ST
+Zn_ppm_NA_LC,"Zinc, in parts per million, by long count instrumental neutron activation",253,NA_LC
+Zn_ppm_NA_SC,"Zinc, in parts per million, by short count instrumental neutron activation",8,NA_SC
+Zn_ppm_WDX_PP,"Zinc, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy on pressed pellet samples",17,WDX_PP
+Zr_ppm_AES_Fuse,"Zirconium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",1108,AES_Fuse
+Zr_ppm_AES_HF,"Zirconium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",9970,AES_HF
+Zr_ppm_AES_ST,"Zirconium, in parts per million, by inductively coupled plasma-atomic emission spectroscopy after Na2O2 sinter digestion",371,AES_ST
+Zr_ppm_EDX,"Zirconium, in parts per million, by energy-dispersive X-ray fluorescence spectroscopy",508,EDX
+Zr_ppm_ES_SQ,"Zirconium, in parts per million, by semi-quantitative visual 6-step or direct reader direct-current arc emission spectrography",1461,ES_SQ
+Zr_ppm_MS_Fuse,"Zirconium, in parts per million, by inductively coupled plasma-mass spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",181,MS_Fuse
+Zr_ppm_MS_HF,"Zirconium, in parts per million, by inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",75,MS_HF
+Zr_ppm_MS_HF_UT,"Zirconium, in parts per million, by ultratrace inductively coupled plasma-mass spectroscopy after HF-HCl-HNO3-HClO4 (4-acid) digestion",7145,MS_HF_UT
+Zr_ppm_MS_ST,"Zirconium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion",12,MS_ST
+Zr_ppm_MS_ST_REE,"Zirconium, in parts per million, by inductively coupled plasma-mass spectroscopy after Na2O2 sinter digestion, REE package",1,MS_ST_REE
+Zr_ppm_NA_LC,"Zirconium, in parts per million, by long count instrumental neutron activation",201,NA_LC
+Zr_ppm_NA_SC,"Zirconium, in parts per million, by short count instrumental neutron activation",5,NA_SC
+Zr_ppm_WDX_Fuse,"Zirconium, in parts per million, by wavelength-dispersive X-ray fluorescence spectroscopy after LiBO2 or LiBO2-Li2B4O7 fusion",11,WDX_Fuse

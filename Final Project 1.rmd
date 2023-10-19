@@ -1,0 +1,30 @@
+```r``
+
+
+```
+
+setwd("C:/Users/aholl/Desktop/Data Science Portfolio/Project #1/project#1newdata/Colorado EPA Data")
+# Load packages
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(ggplot2)
+library(ggthemes)
+library(ggpubr)
+library(cowplot)
+library(ggcorrplot)
+library(corrplot)
+library(caret)
+
+library(rpart)
+library(rpart.plot)
+library(randomForest)
+library(ranger)
+library(e1071)
+library(class)
+library(kknn)
+library(kernlab)
+library(nnet)
+library(neuralnet)
+library(ROCR)
+library(pROC)

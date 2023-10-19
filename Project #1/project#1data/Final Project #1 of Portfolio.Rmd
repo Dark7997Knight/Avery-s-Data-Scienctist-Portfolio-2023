@@ -1,0 +1,701 @@
+---
+title: "Project 1"
+author: "Avery Holloman"
+date: "2023-09-25"
+output:html_document: default
+ 
+---
+
+```{r}
+# Set the working directory
+setwd("C:/Users/aholl/Desktop/Data Science Portfolio/Project #1/project#1data")
+
+```
+
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(readxl)   # For reading Excel files
+library(dplyr)    # For data manipulation
+library(ggplot2)  # For data visualization
+library(FactoMineR)  # For PCA
+
+```
+
+```{r}
+# Load the data from an Excel file
+Summary_Table_by_Contaminant <- read_excel("C:/Users/aholl/Desktop/Data Science Portfolio/Project #1/project#1newdata/Summary Table by Contaminant.xlsx", 
+                                           col_types = c("text", "numeric", "numeric", 
+                                                         "numeric", "numeric", "numeric", 
+                                                         "numeric", "skip", "skip"))
+```
+
+```{r}
+#Change name of dataset to water_data from Summary_Table_by_Contaminant
+water_data <- Summary_Table_by_Contaminant
+```
+
+```{r}
+# Remove the first column ('Containment') temporarily to standardize the numeric variables
+water_data <- water_data[, -1]
+```
+
+```{r}
+# Standardize only the numeric columns
+numeric_columns <- sapply(water_data, is.numeric)
+water_data[, numeric_columns] <- scale(water_data[, numeric_columns])
+```
+
+```{r}
+# Perform Principal Component Analysis (PCA)
+pca_result <- PCA(water_data, scale.unit = TRUE, graph = FALSE)
+```
+
+```{r}
+# Create a scree plot to visualize the variance explained by each principal component
+scree_data <- data.frame(
+  Components = 1:length(pca_result$eig), 
+  Variance_Explained = pca_result$eig / sum(pca_result$eig)
+)
+
+ggplot(scree_data, aes(x = Components, y = cumsum(pca_result$eig) / sum(pca_result$eig))) +
+  geom_bar(stat = "identity", fill = "green") +
+  labs(
+    x = "Number of Principal Components",
+    y = "Variance Explained",
+    title = "Scree Plot"
+  ) +
+  theme_minimal()
+
+```
+
+
+
+```{r}
+# Example data
+data <- data.frame(
+  Components = 1:10,
+  Variance_Explained = c(0.1, 0.15, 0.2, 0.1, 0.05, 0.08, 0.03, 0.02, 0.01, 0.1),
+  Category = c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J")
+)
+
+# Load ggplot2 library
+library(ggplot2)
+
+# Create a bar plot with different colors for each bar and labels
+ggplot(data, aes(x = Components, y = Variance_Explained, fill = Category)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = Category), vjust = -0.5, size = 4, color = "black") + # Add labels
+  labs(
+    x = "Number of Components",
+    y = "Variance Explained",
+    title = "Bar Plot with Different Colors and Labels"
+  ) +
+  scale_fill_manual(values = rainbow(length(unique(data$Category)))) + # Custom color palette
+  theme_minimal()
+```
+
+
+
+```{r}
+# Perform quality control analysis on the reduced dataset using PCA and MCA to identify outliers and missing values
+# PCA
+water_data_num <- water_data[, c(1:6)]  # Select only the numeric variables
+water_data_pca <- PCA(water_data_num, graph = FALSE)  # Perform PCA
+```
+
+```{r}
+# MCA
+water_data_cat <- Summary_Table_by_Contaminant[, c(1)]  # Select only the categorical variable
+water_data_mca <- MCA(water_data_cat, graph = FALSE)  # Perform MCA
+```
+
+```{r}
+# If you're looking for an alternative way to create a PCA plot in ggplot2 without using the fviz_pca_ind function from the FactoMineR package, you can manually create the plot using the principal component scores. Here's an example:
+# 
+# Assuming you have a data frame pca_df with two columns PC1 and PC2 representing the scores of the first two principal components:
+  
+# Example data (replace with your actual data)
+pca_df <- data.frame(
+  PC1 = rnorm(100),
+  PC2 = rnorm(100)
+)
+
+# Load ggplot2 library
+library(ggplot2)
+
+# Create a scatter plot of the PCA scores
+ggplot(pca_df, aes(x = PC1, y = PC2)) +
+  geom_point(size = 3, color = "blue") +
+  labs(
+    x = "Principal Component 1",
+    y = "Principal Component 2",
+    title = "PCA Plot"
+  ) +
+  theme_minimal()
+# In this code:
+# 
+# Replace the pca_df data frame with your actual PCA scores data.
+# We use geom_point to create a scatter plot of the PCA scores.
+# You can customize the plot by changing the color, size, and other aesthetics to fit your preferences.
+# This approach allows you to create a PCA plot using ggplot2 without relying on specific functions from external packages.
+```
+```{r}
+#Creating a 3D ggplot2 plot, often referred to as a 3D scatter plot, can be a bit challenging because ggplot2 is primarily designed for 2D graphics. However, you can achieve a 3D-like effect by using the plotly package, which can create interactive 3D plots from ggplot2 objects. Here's an #example of how to create a 3D scatter plot with colors and a color variate:
+
+# Load the necessary libraries
+library(ggplot2)
+library(plotly)
+
+# Example data (replace with your actual data)
+data <- data.frame(
+  X = rnorm(100),
+  Y = rnorm(100),
+  Z = rnorm(100),
+  ColorVar = rnorm(100)
+)
+
+# Create a ggplot2 scatter plot
+gg <- ggplot(data, aes(x = X, y = Y, z = Z, color = ColorVar)) +
+  geom_point(size = 3) +
+  labs(
+    x = "X-axis",
+    y = "Y-axis",
+    z = "Z-axis",
+    title = "3D Scatter Plot with Color Variate"
+  ) +
+  scale_color_gradient(low = "blue", high = "red")
+
+# Convert the ggplot2 plot to a plotly object for 3D visualization
+plotly_gg <- ggplotly(gg)
+
+# Display the interactive 3D plot
+plotly_gg
+
+# In this example:Replace the data data frame with your actual data, making sure it contains columns for X, Y, Z coordinates, and a color variable (ColorVar in this case).
+# We use geom_point to create the scatter plot, and scale_color_gradient to specify the color scale.
+# ggplotly is used to convert the ggplot2 object (gg) into an interactive 3D plotly object.
+# The resulting plot (plotly_gg) can be displayed interactively in your R environment.
+# This code should give you a 3D scatter plot with colors and a color variate using ggplot2 and plotly. Make sure to customize it further according to your specific dataset and preferences.
+```
+
+
+
+```{r}
+# Load the necessary libraries
+library(FactoMineR)
+library(ggplot2)
+
+# Assuming you have PCA results stored in "water_data_pca" from the PCA analysis
+# Modify the data below to match your actual PCA results
+
+# Create a data frame with PCA results
+pca_results <- data.frame(
+  PC1 = water_data_pca$ind$coord[, 1],
+  PC2 = water_data_pca$ind$coord[, 2],
+  Cos2_PC1 = water_data_pca$ind$cos2[, 1],
+  Cos2_PC2 = water_data_pca$ind$cos2[, 2]
+)
+
+# Create a ggplot2 scatter plot to display PCA results
+ggplot(pca_results, aes(x = PC1, y = PC2, color = Cos2_PC1, size = Cos2_PC2)) +
+  geom_point() +
+  scale_color_gradient(low = "blue", high = "red") +
+  labs(
+    x = "Principal Component 1",
+    y = "Principal Component 2",
+    title = "PCA Plot with Cos2",
+    subtitle = "Cos2 values control point color and size"
+  ) +
+  theme_minimal()
+
+```
+```{r}
+# Title: Exploring Multidimensional Data with Interactive 3D Heatmaps
+# 
+# Introduction:
+# 
+# Data visualization is a powerful tool for gaining insights from complex datasets. While 2D plots are commonly used for visualizing relationships among variables, there are scenarios where data spans multiple dimensions, making it challenging to represent in traditional charts. In such cases, 3D heatmaps provide an effective solution by adding depth to the visualization, enabling us to explore multidimensional data interactively.
+# 
+# The Power of 3D Visualization:
+# 
+# Three-dimensional visualizations offer a unique perspective, allowing us to grasp complex structures and patterns that might be obscured in 2D representations. This depth provides an additional dimension for conveying information, making it especially useful when dealing with data containing multiple variables or measurements.
+# 
+# Creating a 3D heatmap involves plotting data points in a 3D space, with each axis representing a different variable or dimension. In the world of data science and statistics, this approach is instrumental in revealing correlations, clusters, and outliers that might not be immediately apparent in lower-dimensional views.
+# 
+# Interactive Exploration with Plotly:
+# 
+# One of the key advantages of modern data visualization tools is interactivity. Interactive 3D heatmaps, as created using libraries like ggplot2 and Plotly, allow users to engage with the data on a deeper level. These visualizations are no longer static images but dynamic representations that can be explored in real-time.
+# 
+# Users can zoom in to focus on specific regions of interest, rotate the plot to view it from different angles, and even hover over data points to retrieve detailed information. This interactivity empowers researchers, analysts, and decision-makers to extract meaningful insights from multidimensional datasets more efficiently.
+# 
+# The Role of Statistics:
+# 
+# While interactive 3D heatmaps are powerful tools for visual exploration, they are just one part of the data analysis process. Statistical analysis remains a crucial component for deriving meaningful conclusions from data. Depending on the research goals and the nature of the dataset, statistical techniques such as correlation analysis, regression modeling, clustering, or hypothesis testing may be applied to uncover patterns, relationships, and trends.
+# 
+# Conclusion:
+# 
+# Interactive 3D heatmaps are invaluable tools in the realm of data visualization, offering a three-dimensional perspective for understanding complex datasets. These visualizations enhance our ability to explore multidimensional data interactively, providing a deeper understanding of the underlying patterns and structures. However, it's important to remember that while visualization aids in data exploration, statistical analysis remains essential for drawing sound conclusions and making informed decisions based on the data. The synergy between 3D visualization and statistical analysis empowers researchers and analysts to unlock the full potential of multidimensional datasets, ultimately leading to better insights and informed actions.
+
+# Load the necessary libraries
+library(ggplot2)
+library(plotly)
+
+# Example data (replace with your actual data)
+pca_results <- expand.grid(
+  X = seq(1, 10),
+  Y = seq(1, 10),
+  Z = seq(1, 10)
+)
+pca_results$Value <- rnorm(nrow(pca_results))
+
+# Create a ggplot2 plot with color and size aesthetics
+gg <- ggplot(pca_results, aes(x = X, y = Y, z = Z, color = Value, size = Value)) +
+  geom_point() +
+  scale_color_gradient2(low = "blue", mid = "white", high = "red", midpoint = 0, limits = c(-1, 1)) +
+  scale_size_continuous(range = c(1, 10)) +
+  labs(
+    x = "X-axis",
+    y = "Y-axis",
+    z = "Z-axis",
+    title = "3D Heatmap with Sharp Colors"
+  )
+
+# Convert the ggplot2 plot to a plotly object for 3D visualization
+plotly_gg <- ggplotly(gg)
+
+# Display the interactive 3D heatmap
+plotly_gg
+```
+
+
+```{r}
+# Change the dataframe name for clarity
+water_data <- Summary_Table_by_Contaminant
+
+```
+
+```{r}
+#View(Summary_Table_by_Contaminant)
+View(Summary_Table_by_Contaminant)
+```
+
+
+```{r}
+# Remove Containment temporarily from data set to run the scale function since the variable was a character
+water_data <- water_data[, -1]
+```
+
+```{r}
+# Summary statistics of the target variable
+summary(water_data)
+```
+
+```{r}
+# Identify numeric columns (assuming your data frame contains both character and numeric columns)
+numeric_columns <- sapply(water_data, is.numeric)
+```
+
+```{r}
+# Standardize only the numeric columns
+water_data[, numeric_columns] <- scale(water_data[, numeric_columns])
+```
+
+```{r}
+#  Standardize the data by subtracting the mean and dividing by the standard deviation
+water_data <- scale(water_data)
+```
+
+```{r}
+# Compute the covariance matrix of the standardized data
+cov_matrix <- cov(water_data)
+```
+
+```{r}
+# Compute the eigenvalues and eigenvectors of the covariance matrix
+eigen_values <- eigen(cov_matrix)$values
+eigen_vectors <- eigen(cov_matrix)$vectors
+```
+
+```{r}
+# Compute the proportion of variance explained by each principal component
+variance_explained <- eigen_values / sum(eigen_values)
+```
+
+```{r}
+# Compute the cumulative proportion of variance explained by the first k principal components
+cumulative_variance_explained <- cumsum(variance_explained)
+```
+
+```{r}
+# Plot the cumulative proportion of variance explained by the first k principal components
+plot(cumulative_variance_explained, xlab = "Number of Principal Components", ylab = "Cumulative Proportion of Variance Explained", type = "b")
+```
+
+```{r}
+# Create a data frame with the cumulative variance explained
+cumulative_variance_df <- data.frame(
+  Components = 1:length(cumulative_variance_explained),
+  Cumulative_Variance = cumulative_variance_explained
+)
+```
+
+```{r}
+# Create a ggplot2 plot
+ggplot(cumulative_variance_df, aes(x = Components, y = Cumulative_Variance)) +
+  geom_line(color = "blue", size = 1) +
+  geom_point(color = "blue", size = 3) +
+  labs(
+    x = "Number of Principal Components",
+    y = "Cumulative Proportion of Variance Explained",
+    title = "Cumulative Variance Explained by Principal Components"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 20, face = "bold"),
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14, face = "bold")
+  ) +
+  geom_hline(yintercept = 0.95, linetype = "dashed", color = "red") +
+  annotate(
+    "text",
+    x = max(cumulative_variance_df$Components),
+    y = 0.95,
+    label = "95% Variance Explained",
+    hjust = -0.1,
+    vjust = -0.5,
+    size = 4,
+    color = "red"
+  )
+```
+
+```{r}
+# Compute the principal component scores
+principal_component_scores <- water_data %*% eigen_vectors
+```
+
+```{r}
+# Plot the first two principal component scores
+plot(principal_component_scores[, 1], principal_component_scores[, 2], xlab = "First Principal Component", ylab = "Second Principal Component")
+```
+
+```{r}
+# Create a data frame with the principal component scores
+pca_df <- data.frame(
+  PC1 = principal_component_scores[, 1],
+  PC2 = principal_component_scores[, 2]
+)
+```
+
+```{r}
+# Create an exciting ggplot2 plot
+ggplot(pca_df, aes(x = PC1, y = PC2)) +
+  geom_point(
+    aes(color = PC1 + PC2, size = PC1 - PC2),
+    alpha = 0.7,
+    shape = 19
+  ) +
+  labs(
+    x = "First Principal Component",
+    y = "Second Principal Component",
+    title = "PCA Plot"
+  ) +
+  scale_color_gradient(
+    low = "blue",
+    high = "red",
+    guide = guide_colorbar(title = "PC1 + PC2")
+  ) +
+  scale_size_continuous(
+    range = c(2, 10),
+    guide = guide_legend(title = "PC1 - PC2")
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(size = 20, face = "bold"),
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14, face = "bold")
+  )
+```
+
+```{r}
+# Perform PCA
+pca_result <- PCA(water_data, scale.unit = TRUE, graph = FALSE)
+```
+
+```{r}
+# Scree plot to visualize the variance explained by each principal component
+
+ggplot(scree_data, aes(x = Components, y = cumsum(pca_result$eig) / sum(pca_result$eig))) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(
+    x = "Number of Principal Components",
+    y = "Variance Explained",
+    title = "Scree Plot"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+# Calculate cumulative variance explained
+cumulative_variance_data <- data.frame(
+  Components = 1:length(pca_result$eig),
+  Cumulative_Variance = cumsum(pca_result$eig) / sum(pca_result$eig)
+)
+```
+
+```{r}
+# Plot the cumulative proportion of variance explained
+ggplot(cumulative_variance_data, aes(x = Components, y = Cumulative_Variance)) +
+  geom_line(color = "blue") +
+  geom_point(color = "blue") +
+  labs(
+    x = "Number of Principal Components",
+    y = "Cumulative Proportion of Variance Explained",
+    title = "Cumulative Variance Explained"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+# Choose the number of principal components that explain a sufficient amount of variance
+# For example, you can choose a threshold like 95% variance explained
+threshold <- 0.95
+cumulative_variance_data <- data.frame(
+  Components = 1:length(pca_result$eig),
+  Cumulative_Variance = cumsum(pca_result$eig) / sum(pca_result$eig)
+)
+num_components <- which(cumulative_variance_data$Cumulative_Variance >= threshold)[1]
+```
+
+```{r}
+# Perform quality control analysis on the reduced dataset using PCA and MCA to identify outliers and missing values in the dataset
+# PCA
+# Create a new dataframe with only the numeric variables
+water_data_num <- water_data[, c(1:6)]
+```
+
+```{r}
+# Perform PCA
+water_data_pca <- PCA(water_data_num, graph = FALSE)
+```
+
+```{r}
+# Load the necessary libraries
+library(ggplot2)
+library(plotly)
+
+# Example data (replace with your actual data)
+# Assuming you have a data frame named 'water_data_pca' with columns X, Y, Z, and Group
+# X, Y, and Z represent the coordinates in 3D space, and Group indicates the grouping variable
+# Also, assuming you have a custom shape variable 'Shape' for each data point
+# The 'Color' variable represents the color by group
+set.seed(42)
+n <- 100
+water_data_pca <- data.frame(
+  X = rnorm(n),
+  Y = rnorm(n),
+  Z = rnorm(n),
+  Group = sample(LETTERS[1:5], n, replace = TRUE),
+  Shape = sample(c("circle", "triangle", "square"), n, replace = TRUE),
+  Color = sample(c("#00AFBB", "#E7B800", "#FC4E07"), n, replace = TRUE)
+)
+
+# Create a 3D jitter plot with custom shapes and dynamic colors by group
+gg <- ggplot(water_data_pca, aes(x = X, y = Y, z = Z, color = Group, shape = Shape)) +
+  geom_jitter(width = 0.1, height = 0.1) +  # Adjust the width and height as needed
+  scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07", "#E76F00", "#B800E7")) +  # Customize colors
+  scale_shape_manual(values = c("circle" = 1, "triangle" = 2, "square" = 3)) +  # Customize shapes
+  labs(
+    x = "X-axis",
+    y = "Y-axis",
+    z = "Z-axis",
+    title = "3D Jitter Plot with Custom Shapes and Dynamic Colors by Group"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20),
+    axis.title.x = element_text(size = 15),
+    axis.title.y = element_text(size = 15),
+    axis.text.x = element_text(size = 12),
+    axis.text.y = element_text(size = 12),
+    legend.position = "bottom",
+    legend.title = element_text(size = 15),
+    legend.text = element_text(size = 12)
+  )
+
+# Convert the ggplot2 plot to a plotly object for interactive 3D visualization
+plotly_gg <- ggplotly(gg)
+
+# Display the interactive 3D jitter plot
+plotly_gg
+
+```
+
+```{r}
+# MCA
+# Create a new dataframe with only the categorical variables
+water_data_cat <- Summary_Table_by_Contaminant[, c(1)]
+```
+
+```{r}
+# Perform MCA
+water_data_mca <- MCA(water_data_cat, graph = FALSE) # graph = FALSE to avoid the plot
+```
+
+```{r}
+# Load the necessary libraries
+library(ggplot2)
+library(plotly)
+
+# Data frame named 'water_data_mca' with columns X, Y, Z, and Group
+# X, Y, and Z represent the coordinates in 3D space, and Group indicates the grouping variable
+# 'Strip_Label' for each facet strip
+# The 'Color' variable represents the color by group
+set.seed(42)
+n <- 100
+water_data_mca <- data.frame(
+  X = rnorm(n),
+  Y = rnorm(n),
+  Z = rnorm(n),
+  Group = sample(LETTERS[1:5], n, replace = TRUE),
+  Strip_Label = sample(c("Category A", "Category B", "Category C"), n, replace = TRUE),
+  Color = sample(c("#00AFBB", "#E7B800", "#FC4E07"), n, replace = TRUE)
+)
+
+# Create a 3D scatter plot with facet customization
+gg <- ggplot(water_data_mca, aes(x = X, y = Y, z = Z, color = Group)) +
+  geom_point(size = 3) +
+  scale_color_manual(values = c("#00AFBB", "#E7B800", "#FC4E07", "#E76F00", "#B800E7")) +  # Customize colors
+  labs(
+    x = "X-axis",
+    y = "Y-axis",
+    z = "Z-axis",
+    title = "3D Scatter Plot with Facet Customization"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20),
+    axis.title.x = element_text(size = 15),
+    axis.title.y = element_text(size = 15),
+    axis.text.x = element_text(size = 12),
+    axis.text.y = element_text(size = 12)
+  ) +
+  facet_grid(~ Strip_Label, scales = "free_x", space = "free_x")  # Customize facet strips
+
+# Convert the ggplot2 plot to a plotly object for interactive 3D visualization
+plotly_gg <- ggplotly(gg)
+
+# Display the interactive 3D scatter plot
+plotly_gg
+
+```
+
+```{r}
+# Create a new dataframe with only the numeric variables
+water_data_num <- water_data[, c(1:6)]
+```
+
+```{r}
+# Compute the correlation matrix
+correlation_matrix <- cor(water_data_num)
+```
+
+```{r}
+library(ggcorrplot)
+# Plot the correlation matrix with beautiful colors in ggplot2 using the ggcorrplot() function
+ggcorrplot(correlation_matrix, hc.order = TRUE, type = "lower", lab = TRUE, lab_size = 3, method = "circle",
+           colors = c("#00AFBB", "white", "#FC4E07"), ggtheme = theme_minimal()) +
+    ggtitle("Correlation Matrix of Water Data") + theme(plot.title = element_text(hjust = 0.5)) +
+    theme(plot.title = element_text(size = 20)) + theme(axis.title.x = element_text(size = 15)) +
+    theme(axis.title.y = element_text(size = 15)) + theme(axis.text.x = element_text(size = 15)) +
+    theme(axis.text.y = element_text(size = 15)) + theme(legend.title = element_text(size = 15)) +
+    theme(legend.text = element_text(size = 15))
+    ```
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(reshape2) # For data manipulation
+
+# Function to create a summary stats plot of the correlation matrix
+correlation_summary_plot <- function(correlation_matrix) {
+  # Melt the correlation matrix for ggplot
+  correlation_data <- melt(correlation_matrix)
+  
+  # Create a ggplot for summary statistics
+  summary_plot <- ggplot(data = correlation_data, aes(x = Var1, y = Var2)) +
+    geom_tile(aes(fill = value), color = "white") +
+    geom_text(aes(label = round(value, 2)), vjust = 1) +
+    scale_fill_gradient(low = "#00AFBB", high = "#FC4E07") + # different colors
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) + # Rotate x-axis labels
+    labs(title = "Summary Statistics of Correlation Matrix",
+         x = "Variables", y = "Variables") +
+    coord_fixed() # square tiles
+  
+  return(summary_plot)
+}
+
+# Call the function to create and display the summary plot
+summary_plot <- correlation_summary_plot(correlation_matrix)
+
+# Display the summary plot
+print(summary_plot)
+
+```
+    
+```{r}
+# Create the correlation matrix
+correlation_matrix <- cor(water_data_num)
+
+# Create the ggcorrplot
+library(ggcorrplot)
+ggcor <- ggcorrplot(correlation_matrix, hc.order = TRUE, type = "lower", lab = TRUE, lab_size = 3, method = "circle",
+           colors = c("#00AFBB", "white", "#FC4E07"), ggtheme = theme_minimal()) +
+    ggtitle("Correlation Matrix of Water Data") + theme(plot.title = element_text(hjust = 0.5)) +
+    theme(plot.title = element_text(size = 20)) + theme(axis.title.x = element_text(size = 15)) +
+    theme(axis.title.y = element_text(size = 15)) + theme(axis.text.x = element_text(size = 15)) +
+    theme(axis.text.y = element_text(size = 15)) + theme(legend.title = element_text(size = 15)) +
+    theme(legend.text = element_text(size = 15))
+
+# Perform t-tests and store p-values in a matrix
+t_test_results <- matrix(NA, nrow = ncol(correlation_matrix), ncol = ncol(correlation_matrix))
+
+for (i in 1:ncol(correlation_matrix)) {
+  for (j in 1:ncol(correlation_matrix)) {
+    if (i != j) {
+      t_test <- t.test(water_data_num[, i], water_data_num[, j])
+      t_test_results[i, j] <- t_test$p.value
+    }
+  }
+}
+
+# Add t-test p-values as annotations
+annotation_df <- data.frame(Var1 = rownames(correlation_matrix), Var2 = colnames(correlation_matrix), p.value = t_test_results)
+ggcor + 
+  geom_text(data = reshape2::melt(annotation_df), aes(x = Var2, y = Var1, label = sprintf("%.4f", value)),
+            color = "black", size = 3, vjust = 1, hjust = 1)
+
+```
+```{r}
+# Perform pairwise t-tests for X against Group
+pairwise_t_test_X <- pairwise.t.test(water_data_mca$X, water_data_mca$Group, p.adjust.method = "bonferroni")
+
+# View the results
+print(pairwise_t_test_X)
+
+```
+
+```{r}
+# Create a new grouping variable with two levels
+water_data_mca$Group2 <- ifelse(water_data_mca$Group %in% c("A", "B"), "Group1", "Group2")
+
+# Perform the t-test for X against the new Group2 variable
+t_test_X <- t.test(X ~ Group2, data = water_data_mca)
+
+# View the result
+print(t_test_X)
+
+```
+
+

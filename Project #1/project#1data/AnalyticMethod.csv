@@ -1,0 +1,78 @@
+ANALYTIC_METHOD,ANALYTIC_METHOD_DESC,DIGESTION_METHOD,ANALYTIC_METHOD_COUNT,AM_PUB_ID
+AA_CV,Mercury by cold-vapor atomic absorption spectrometry after multi-acid digestion and solution,multi-acid,1104,Brown_2002_1
+AA_CV_AR,Mercury by cold-vapor atomic absorption spectrometry after digestion with aqua regia and solution,aqua regia,99,AGAT_2017_04
+AA_CV_WO,Mercury by cold-vapor atomic absorption spectrometry after acid digestion and wet oxidation,acid,516,Huffman_1976
+AA_F_Acid_P,Antimony by flame atomic absorption spectrometry after partial digestion with HClO4-HNO3-HCl,HClO4-HNO3-HCl,7,unknown
+AA_F_AR_P,Major and minor elements by flame atomic absorption spectrometry after partial digestion with hot aqua regia,aqua regia,11549,Knaebel_1970
+AA_F_AZ_H2O2_P,"Silver, arsenic, cadmium,  and zinc by flame atomic absorption spectrometry after partial digestion with HCl-H2O2-KI, ascorbic acid and selective organic extraction with MIBK",HCl-H2O2,33,O'Leary_1986_2
+AA_F_CA_P,Copper by flame atomic absorption spectrometry after leaching with citric acid,citric acid leach,215,ALS_2015_07
+AA_F_CN_P,Gold and copper by flame atomic absorption spectrometry after leaching with cyanide,cyanide leach,3009,ALS_2015_06
+AA_F_Fuse,Major and minor elements by flame atomic absorption spectrometry after LiBO2/Li2B4O7 fusion digestion,LiBO2/Li2B4O7 fusion,27,Baedecker_1987_1
+AA_F_Fuse_P,"Bismuth, molybdenum and antimony by flame atomic absorption spectrometry after K2S2O7 fusion, partial acid digestion, and selective organic extraction with MIBK",K2S2O7 fusion and acid,841,O'Leary_1986_1m
+AA_F_H2SO4_P,Copper by flame atomic absorption spectrometry after partial digestion with H2SO4,H2SO4,2792,ALS_2015_07
+AA_F_HBr,Gold and tellurium by flame atomic absorption spectrometry after HBr-Br2 digestion and selective organic extraction with MIBK,HBr-Br2,984,O'Leary_1996_1
+AA_F_HCl_P,Antimony by flame atomic absorption spectrometry after partial digestion with HCl and selective organic extraction with TOPO/MIBK,HCl,16,O'Leary_1986_1a
+AA_F_HF,"Major, minor and trace elements by flame atomic absorption spectrometry after multi-acid digestion with HF",multi-acid with HF,4689,Aruscavage_1987
+AA_F_HNO3_P,"Silver, bismuth, cadmium, copper, lead and zinc by flame atomic absorption spectrometry after partial digestion with hot HNO3",hot HNO3,876,O'Leary_1986_1f
+AA_F_KClO3_P,Antimony by flame atomic absorption spectrometry after partial digestion with KClO3,KClO3,95,O'Leary_1986_1d
+AA_FE,Sodium and potassium by flame emission spectroscopy (flame photometry) after HF-HClO4 dissolution or LiBO2 fusion,HF-HClO4 or LiBO2 fusion,5,Fries_2002
+AA_GF_AR_P,Gold by graphite furnace atomic absorption spectrometry after partial digestion with hot aqua regia,aqua regia,202,unknown
+AA_GF_HBr,Gold and tellurium by graphite furnace atomic absorption spectrometry after HBr-Br2 digestion and selective organic extraction with MIBK,HBr-Br2,2075,O'Leary_1996_1
+AA_GF_HF,"Gold, antimony, selenium and tellurium by graphite furnace atomic absorption spectrometry after multi-acid digestion with HF and selective organic extraction with MIBK",multi-acid with HF,785,Doughten_1993
+AA_GF_ST,"Thallium by graphite furnace atomic absorption spectrometry after Na2O2 sinter, HCl-HNO3 dissolution, and selective organic extraction with DIBK",Na2O2 sinter and HCl-HNO3,66,SGS_2007_14
+AA_HG_Acid,Arsenic and selenium by flow injection or continuous flow hydride generation-atomic absorption spectrometry after digestion with HNO3-HCl-H2SO4-KMnO4,HNO3-HCl-H2SO4-KMnO4,1309,AGAT_2017_06
+AA_HG_AR,Arsenic and antimony by flow injection or continuous flow hydride generation-atomic absorption spectrometry after digestion with aqua regia,aqua regia,477,ALS_2015_04
+AA_HG_HF,"Arsenic, selenium and tellurium by flow injection or continuous flow hydride generation-atomic absorption spectrometry after multi-acid digestion with HF",multi-acid with HF,691,Hageman_2002_1
+AA_HG_ST,Arsenic and antimony by flow injection or continuous flow hydride generation-atomic absorption spectrometry after Na2O2 sinter digestion,Na2O2 sinter,62,AGAT_2017_05
+AA_TR,Mercury by thermal release and atomic absorption spectrometry after heating and KBr-H2SO4 digestion (Vaughn-McCarthy method),combustion or vaporize,959,Hinkle_1975
+AES_AR_P,"Major, minor and trace elements by inductively coupled plasma-atomic emission spectrometry after partial digestion with hot aqua regia",aqua regia,22273,Church_1981
+AES_AZ_P,"Silver, arsenic, gold, bismuth, cadmium, copper, gallium, mercury, molybdenum, lead, antimony, selenium, tellurium, thallium and zinc by inductively coupled plasma-atomic emission spectrometry after partial digestion with HCl-H2O2",HCl-H2O2,6692,Motooka_1996
+AES_Fuse,"Major, minor and trace elements by inductively coupled plasma-atomic emission spectrometry after LiBO2 or LiBO2-Li2B4O7 fusion",LiBO2/Li2B4O7 fusion,15695,Doughten_1993
+AES_HF,"Major, minor and trace elements by inductively coupled plasma-atomic emission spectrometry after digestion with HF-HCl-HNO3-HClO4 (4-acid)",HF-HCl-HNO3-HClO4,519963,Briggs_2002_2
+AES_HF_AG,Zinc in ore-grade samples by inductively coupled plasma-atomic emission spectrometry after digestion with HF-HCl-HNO3-HClO4 (4-acid),HF-HCl-HNO3-HClO4,1,AGAT_2017_15
+AES_HF_UT,Major and minor elements by ultratrace inductively coupled plasma-atomic emission spectrometry after digestion with HF-HCl-HNO3-HClO4 (4-acid),HF-HCl-HNO3-HClO4,142843,ALS_2015_01
+AES_ST,Major and minor elements by inductively coupled plasma-atomic emission spectrometry after Na2O2 sinter digestion,Na2O2 sinter,7910,AGAT_2017_16
+CB_HCl,Organic carbon by infrared detection after combustion and digestion with HCl,combustion and HCl,94,Jackson_1987
+CB_IRC,Forms of carbon and sulfur by infrared detection after combustion,combustion,2606,Taggart_2002_1
+CB_TT,Total sulfur by iodometric titration after combustion,combustion,829,O'Leary_1990_5
+CM_Acid_P,Arsenic by modified Gutzeit apparatus confined-spot method colorimetry after partial digestion in KOH-HCl and chemical separation,KOH-HCl,140,O'Leary_1986_1b
+CM_Fuse,Major and minor elements by colorimetric spectrophotometry after fusion digestion,fusion,10,Baedecker_1987_1
+CM_HF,Silicon and tungsten by colorimetric spectrophotometry after multi-acid digestion with HF,multi-acid with HF,3738,Baedecker_1987_1
+CM_HSF,Fluorine by colorimetric spectrophotometry after H2SiF6 digestion and chemical separation,H2SiF6,8,Shapiro_1975
+CM_ST,Chlorine by colorimetric spectrophotometry after Na2CO3 and ZnO sinter digestion,carbonate sinter,3,Jackson_1987
+CP,"Forms of carbon, iron and sulfur by computation",none,391,Jackson_1987
+DCP_AR_P,"Silver, arsenic, mercury, molybdenum, antimony and thallium by direct current plasma-atomic emission spectrometry after partial digestion with hot aqua regia",aqua regia,492,unknown
+DCP_Fuse,Major and minor elements by direct current plasma-atomic emission spectrometry after LiBO2 or LiBO2-Li2B4O7 fusion,LiBO2/Li2B4O7 fusion,1308,unknown
+DN,Uranium and thorium by delayed neutron activation counting,none,793,Knight_2002
+EDX,Major and minor elements by energy-dispersive X-ray fluorescence spectrometry,none,4881,Siems_2002
+EPMA,"Major, minor and trace elements by electron probe microanalysis",none,10579,unknown
+ES_Q,"Arsenic, bismuth, cesium, lithium and rubidium by quantitative emission spectrography",ignition,2630,Golightly_1987_2
+ES_SQ,"Major, minor and trace elements by semi-quantitative visual 6-step or direct-reader emission spectrography",ignition,49069,Adrian_1996
+FA_AA,Silver and gold by graphite furnace atomic absorption spectrometry after PbO fire assay chemical separation,PbO fire assay,2484,Haffty_1977
+FA_AES,"Gold, palladium and platinum by inductively coupled plasma-atomic emission spectrometry after PbO fire assay chemical separation",PbO fire assay,19173,AGAT_2017_11
+FA_DC,Gold by direct current plasma-atomic emission spectrometry after PbO fire assay chemical separation,PbO fire assay,130,unknown
+FA_GV,Gold by gravimetry after PbO fire assay chemical separation,PbO fire assay,61,Haffty_1977
+FA_MS,Gold and platinum group elements by inductively coupled plasma-mass spectrometry after NiS fire assay chemical separation,NiS fire assay,988,AGAT_2017_21
+FL_HF,Uranium by fluorometry after multi-acid digestion with HF,multi-acid with HF,820,Hopkins_1990
+GRC,"Uranium, as equivalent U by beta-gamma counting",none,46,Grimes_1984
+GV,Moisture by gravimetry; loss on ignition by weight loss after heating at 900-930° C,heat or combustion,2184,Jackson_1987
+GV_Flux,Bound and total water by heating and weight loss with flux,heat,7,Norton_1996
+ISE_Fuse,Chlorine and fluoride by ion specific electrode after fusion digestion,fusion,1579,Pribble_1996
+ISE_HF,Chlorine by ion specific electrode after multi-acid digestion with HF,multi-acid with HF,942,Aruscavage_1996
+LAMS,"Major, minor and trace elements by inductively coupled plasma-mass spectrometry after laser ablation decomposition",laser ablation,23169,unknown
+MS_AR,Mercury by inductively coupled plasma-mass spectrometry after digestion with aqua regia,aqua regia,7145,ALS_2015_05
+MS_AR_P,"Major, minor and trace elements by inductively coupled plasma-mass spectrometry after partial digestion with hot aqua regia",aqua regia,4416,unknown
+MS_AR_UT_P,Minor and trace elements by ultratrace inductively coupled plasma-mass spectrometry after partial digestion with hot aqua regia,aqua regia,1898,ALS_2015_03
+MS_Fuse,Minor and trace elements by inductively coupled plasma-mass spectrometry after LiBO2/Li2B4O7 fusion digestion,LiBO2/Li2B4O7 fusion,15131,ALS_2015_02
+MS_HF,"Major, minor and trace elements by inductively coupled plasma-mass spectrometry after HF-HCl-HNO3-HClO4 (4-acid) digestion",HF-HCl-HNO3-HClO4,281252,Briggs_2002_4
+MS_HF_UT,Minor and trace elements by ultratrace inductively coupled plasma-mass spectrometry after HF-HCl-HNO3-HClO4 (4-acid) digestion,HF-HCl-HNO3-HClO4,200060,ALS_2015_01
+MS_ST,Minor and trace elements by inductively coupled plasma-mass spectrometry after Na2O2 sinter digestion,Na2O2 sinter,14333,AGAT_2017_16
+MS_ST_REE,Rare earth and high field strength elements by inductively coupled plasma-mass spectrometry after Na2O2 sinter digestion,Na2O2 sinter,4428,Meier_2002
+NA_LC,"Major, minor and trace elements by long count instrumental neutron activation analysis",none,10170,Budahn_2002_1
+NA_SC,"Major, minor and trace elements by short count instrumental neutron activation analysis",none,357,Budahn_2002_2
+TT_Flux,Total and bound water by Karl Fischer coulometric titration with flux after combustion,combustion,206,Norton_1996
+TT_HCl,Carbonate carbon and carbon dioxide (acid soluble carbon) by coulometric titration after HClO4 digestion and extraction,HClO4,468,Papp_1996_1
+TT_HF,Ferrous oxide by colorimetric or potentiometric titration after HF-H2SO4,HF-H2SO4,705,Papp_1996_2
+VOL_HCl,Carbon dioxide by evolution after digestion with HCl,HCl,1,Huffman_1976
+WDX_Fuse,Major and minor elements by wavelength-dispersive X-ray fluorescence spectrometry after LiBO2/Li2B4O7 fusion digestion,LiBO2/Li2B4O7 fusion,17973,Taggart_2002_2
+WDX_PP,"Major, minor and trace elements by wavelength-dispersive X-ray fluorescence spectrometry on pressed pellet samples",none,1251,Taggart_1987

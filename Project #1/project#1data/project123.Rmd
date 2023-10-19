@@ -1,0 +1,235 @@
+
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`Results > HA`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 5) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+```
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# Assuming your dataset is named "water_data" and the target variable is "actual_target_variable_name"
+# Adjust the number of bins, customize the appearance, and increase bin width and plot size
+ggplot(water_data, aes(x = water_data$`Results > HA`)) +
+  geom_histogram(
+    binwidth = 15,              # Increase the width of bins
+    fill = "skyblue",         # Fill color
+    color = "black",          # Border color
+    alpha = 0.8,              # Transparency of bars
+    size = 0.8                # Border size of bars
+  ) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Detailed Distribution of Water Quality") +
+  theme_minimal() +          # Customize the theme
+  theme(
+    axis.text = element_text(size = 12),        # Customize axis text size
+    axis.title = element_text(size = 14),       # Customize axis title size
+    plot.title = element_text(size = 16, hjust = 0.5),  # Customize plot title size and alignment
+    plot.background = element_rect(fill = "white"),   # Set plot background color
+    plot.margin = unit(c(1, 1, 2, 2), "cm")    # Adjust plot margins for larger size
+  ) +
+  coord_cartesian(xlim = c(0, 100))  # Adjust x-axis limits if needed
+
+
+```
+
+
+
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`PWSs with Results > HA`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 400) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+```
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`Results ≥ MRL`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 400) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+```
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`PWSs with Results ≥ MRL`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 400) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+```
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`Results in Selection`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 400) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+
+```
+
+```{r}
+# Visualize the distribution of the target variable (replace 'target_variable' with the actual name)
+ggplot(water_data, aes(x = water_data$`PWSs in Selection`)) +
+  geom_histogram(fill = "lightblue", color = "black", binwidth = 400) +
+  labs(x = "Water Quality", y = "Frequency") +
+  ggtitle("Distribution of Water Quality")
+```
+
+
+
+```{r}
+# Scatter plot of numeric variables against the target variable
+ggplot(water_data, aes(x = water_data$Contaminant, y = water_data$`PWSs with Results ≥ MRL`)) +
+  geom_point(color = "blue") +
+  labs(x = "Numeric Variable 1", y = "Water Quality") +
+  ggtitle("Numeric Variable 1 vs. Water Quality")
+```
+
+```{r}
+ggplot(water_data, aes(x = numeric_variable2, y = target_variable)) +
+  geom_point(color = "red") +
+  labs(x = "Numeric Variable 2", y = "Water Quality") +
+  ggtitle("Numeric Variable 2 vs. Water Quality")
+```
+
+```{r}
+# Boxplot of categorical variables against the target variable
+ggplot(water_data, aes(x = categorical_variable, y = target_variable)) +
+  geom_boxplot(fill = "lightgreen", color = "black") +
+  labs(x = "Categorical Variable", y = "Water Quality") +
+  ggtitle("Categorical Variable vs. Water Quality")
+```
+
+```{r}
+# Correlation matrix
+cor_matrix <- cor(water_data[, c("numeric_variable1", "numeric_variable2")])
+cor_matrix
+```
+
+```{r}
+# Pairwise scatter plot of numeric variables
+pairs(water_data[, c("numeric_variable1", "numeric_variable2")])
+```
+
+```
+# Explore relationships between variables using other appropriate visualizations and statistical tests
+
+#-------------------------
+# Note: The above code is just an example and you may need to modify it based on your specific dataset and variables of interest.
+```
+
+```{r}
+ subset(df, select=c(x,y))
+```
+
+```{r}
+var.out.bool <- names(water_data) %in% c(`PWSs in Selection`,`Results in Selection`)
+```
+
+```{r}
+water_data <- water_data[,var.out.bool, drop = FALSE]
+```
+
+```{r}
+subset( water_data, select = -c(`PWSs in Selection`,`Results in Selection`) ) 
+```
+
+```{r}
+library(ggfortify) 
+# Select the columns for PCA
+selected_data <- water_data %>%
+  select(`PWSs in Selection`, `Results in Selection`, `PWSs with Results ≥ MRL`)
+
+# Standardize the data (optional, but recommended for PCA)
+scaled_data <- scale(selected_data)
+
+# Perform PCA
+pca_result <- prcomp(scaled_data, center = TRUE, scale. = TRUE)
+
+# Print summary of PCA results
+summary(pca_result)
+
+# Visualize PCA results
+autoplot(pca_result, data = water_data, colour = NULL, loadings = TRUE)
+
+
+```
+```{r}
+theme_set(theme_classic())
+
+# Compute data with principal components ------------------
+df <- iris[c(1, 2, 3, 4)]
+pca_mod <- prcomp(df)  # compute principal components
+
+# Data frame of principal components ----------------------
+df_pc <- data.frame(pca_mod$x, Species=iris$Species)  # dataframe of principal components
+df_pc_vir <- df_pc[df_pc$Species == "virginica", ]  # df for 'virginica'
+df_pc_set <- df_pc[df_pc$Species == "setosa", ]  # df for 'setosa'
+df_pc_ver <- df_pc[df_pc$Species == "versicolor", ]  # df for 'versicolor'
+ 
+# Plot ----------------------------------------------------
+ggplot(pca_result, aes(PC1, PC2, col= Results)) + 
+  geom_point(aes(shape=Results), size=2) +   # draw points
+  labs(title="Iris Clustering", 
+       subtitle="Principal component Analysis of Colorado's Water Quality",
+       caption="Water Quality Chemical Check ") + 
+  coord_cartesian(xlim = 1.2 * c(min(pca_result$), max(df_pc$PC1)), 
+                  ylim = 1.2 * c(min(df_pc$PC2), max(df_pc$PC2))) +   # change axis limits
+  geom_encircle(data = df_pc_vir, aes(x=PC1, y=PC2)) +   # draw circles
+  geom_encircle(data = df_pc_set, aes(x=PC1, y=PC2)) + 
+  geom_encircle(data = df_pc_ver, aes(x=PC1, y=PC2))
+```
+
+
+
+
+```{r}
+#geom_encircle() cluster the data points and draw an ellipse around the cluster
+# Plot the data
+ggplot(water_data, aes(x = `Average Concentration (ppb)`, y = `Number of Samples`)) +
+    geom_point(aes(color = `Contaminant`)) +
+    geom_encircle(aes(fill = `Contaminant`), s_shape = 1.5, expand = 0.08, color = "black", alpha = 0.2) +
+    theme_bw() +
+    theme(legend.position = "none") +
+    labs(title = "Average Concentration (ppb) vs Number of Samples",
+        x = "Average Concentration (ppb)",
+        y = "Number of Samples")
+```
+
+```{r}
+# Standardize the data (optional, but recommended for PCA)
+scaled_data <- scale(pca_result)
+
+# Compute the covariance matrix
+cov_matrix <- cov(scaled_data)
+
+# Compute the eigenvalues and eigenvectors
+eigen_result <- eigen(cov_matrix)
+
+# Extract eigenvalues
+eigenvalues <- eigen_result$values
+
+# Calculate the proportion of total variance explained by each principal component
+variance_explained <- eigenvalues / sum(eigenvalues)
+
+# Cumulative variance explained
+cumulative_variance <- cumsum(variance_explained)
+
+# Determine the number of principal components to keep based on a threshold (e.g., 95% variance)
+threshold <- 0.95
+num_components_to_keep <- sum(cumulative_variance <= threshold) + 1
+
+# Select the first 'num_components_to_keep' principal components
+selected_components <- eigenvectors[, 1:num_components_to_keep]
+
+# Recast the data along the principal component axes
+recast_data <- scaled_data %*% selected_components
+
+# 'recast_data' now contains your data transformed along the principal component axes
+
+```
