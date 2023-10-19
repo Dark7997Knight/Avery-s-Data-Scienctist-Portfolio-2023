@@ -1,0 +1,2 @@
+# Avery's Data Scienctist Portfolio 2023
+ "Welcome to my Data Science Repository! 📊 Here, you'll find a collection of data-driven projects and analyses showcasing my passion for all things data. From predictive modeling to data visualization, these projects reflect my journey into the world of data science. Explore the code, insights, and techniques I've employed to derive meaningful information from complex datasets. Let's dive into the exciting world of data together!"
