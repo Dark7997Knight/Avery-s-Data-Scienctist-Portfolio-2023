@@ -1,7 +1,3 @@
-```{r}
-# This dataset presents an extensive repository of data pertaining to barbecue (BBQ) sauces and their constituent ingredients, sourced from a commercial BBQ restaurant, with the primary aim of profit maximization. In the course of this data-driven research endeavor, we employ the analytical and visualization capabilities of R Studio to conduct a multifaceted analysis. We utilize advanced techniques, including hierarchical clustering, to create predictive cost-saving models based on ingredient composition. Moreover, we embark on an insightful exploration that juxtaposes a commercial brand (referred to as Sauce1) with a homemade brand (referred to as Sauce2) of BBQ sauces. Our overarching objective is to meticulously examine the nutritional quality and volume of ingredients in these two types of sauces, ultimately culminating in an assessment of their overall price comparison. All of this is conducted within the R environment, underscoring our commitment to data-driven decision-making in the field of gastronomy and culinary analytics.
-```
-
 
 ```{r}
 # Loading required libraries
@@ -57,18 +53,56 @@ print(clustering_plot)
 
 
 ```
-
-
 ```{r}
-##Results and Conclusion:
-# 
-# Our rigorous analysis of the dataset has yielded several noteworthy findings. One of the most salient revelations is the stark difference in nutritional quality between commercial brand Sauce1 and homemade brand Sauce2 BBQ sauces. Upon close examination, it becomes evident that Sauce1, the commercial brand, exhibited a significantly lower level of nutritional quality compared to Sauce2, the homemade counterpart. This discrepancy can be attributed to the inclusion of certain unhealthy ingredients, with ketchup being the most conspicuous offender.
-# 
-# Ketchup, a prevalent ingredient in commercial BBQ sauces, emerged as a primary contributor to the reduced nutritional quality of Sauce1. The data illustrates that commercial BBQ sauces tend to include ketchup in larger quantities, often loaded with added sugars and preservatives. This not only results in a lower nutritional value but also raises concerns about the overall health implications of consuming such products.
-# 
-# In stark contrast, Sauce2, the homemade BBQ sauce, showcases a distinct advantage in terms of nutritional quality. It incorporates a more balanced and wholesome selection of ingredients, emphasizing natural flavors and lower levels of additives. This not only enhances the overall quality of Sauce2 but also positions it as a healthier choice for consumers seeking a more wholesome BBQ sauce option.
-# 
-# In conclusion, our data-driven analysis underscores the significant disparities between commercial brand Sauce1 and homemade brand Sauce2 BBQ sauces. The higher nutritional quality and overall healthiness of the homemade variant, Sauce2, make it a favorable choice for those looking to prioritize their health and well-being. This study exemplifies the potential for data science to inform and improve decision-making in the realm of gastronomy, demonstrating that careful ingredient selection can have a substantial impact on the nutritional quality and overall appeal of culinary products.##
+# First we need to load the required libraries
+library(dplyr)
+library(plotly)
+
+# Sample ingredient data that I created 
+ingredient_data <- data.frame(
+  Ingredient = c(
+    "Ketchup", "Brown Sugar", "Apple Cider Vinegar", 
+    "Cayenne", "Worcestershire", "Water", "Molasses", 
+    "Paprika", "Black Pepper", "Minced Garlic", 
+    "Butter", "Minced Onion", "Prepared Mustard",
+    "Chili Powder", "Onion Powder", "Garlic Powder", 
+    "Dry Mustard", "Tabasco", "Salt", "White Vinegar", 
+    "Tomato Paste", "Liquid Smoke", "All Spice", 
+    "Steak Sauce", "White Sugar", "Honey", "Apple Juice", 
+    "Pineapple Juice", "Olive Oil", "Celery Salt"
+  ),
+  Sauce1 = c(
+    3, 1, 0.125, 0.03125, 0.0625, 0.25, 0.0625, 0.0625, 0.03125, 0.1875,
+    0.5, 0.25, 0.125, 0.0625, 0.0625, 0.0625, 0.0625, 0.0156, 0.0625, 0.0625,
+    0.0625, 0.125, 0.0625, 0.0625, 0.0625, 0.0625, 0.5, 0.5, 0.25, 0.1875
+  ),
+  Sauce2 = c(
+    1, 0.25, 0.25, 0.0625, 0.0625, 1, 0.125, 0.0625, 0.0625, 0.1875,
+    0.125, 0.25, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.03125, 0.0625, 0.09375,
+    0.0625, 0.03125, 0.0625, 0.0625, 0.0625, 0.0625, 0.5, 0.25, 0.09375, 0.5
+  )
+)
+
+# Now lets take a different approach and look at it from a treemap using plotly
+treemap_plot <- ingredient_data %>%
+  plot_ly(
+    ids = ~Ingredient,
+    labels = ~Ingredient,
+    parents = ~"",
+    values = ~Sauce1 + Sauce2,
+    type = "treemap"
+  )
+
+# Now let us customize the layout of the treemap
+treemap_plot <- treemap_plot %>%
+  layout(
+    title = "Ingredient Treemap",
+    margin = list(t = 10, b = 10, l = 10, r = 10)
+  )
+
+# Lets take a look 
+treemap_plot
+
 ```
 
 
