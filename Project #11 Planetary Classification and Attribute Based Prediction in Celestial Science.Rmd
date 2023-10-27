@@ -1,0 +1,68 @@
+```{r}
+# Load required libraries
+library(randomForest)
+library(ggplot2)
+library(cowplot)
+library(caret)
+
+# Load the provided planetary data
+planetary_data <- data.frame(
+  Planet = c("MERCURY", "VENUS", "EARTH", "MOON", "MARS", "JUPITER", "SATURN", "URANUS", "NEPTUNE", "PLUTO"),
+  Mass = as.numeric(c(0.330, 4.87, 5.97, 0.073, 0.642, 1898, 568, 86.8, 102, 0.0130)),
+  Diameter = as.numeric(c(4879, 12104, 12756, 3475, 6792, 142984, 120536, 51118, 49528, 2376))
+)
+
+# Convert the "Planet" variable to a factor
+planetary_data$Planet <- as.factor(planetary_data$Planet)
+
+# Split the data into training and testing sets
+set.seed(123)  # for reproducibility
+sample_indices <- sample(1:nrow(planetary_data), nrow(planetary_data) * 0.7)  # 70% for training
+train_data <- planetary_data[sample_indices, ]
+test_data <- planetary_data[-sample_indices, ]
+
+# Ensure all planets are present in the training data by oversampling
+unique_planets <- levels(planetary_data$Planet)
+oversampled_train_data <- train_data
+
+for (planet in unique_planets) {
+  if (!planet %in% train_data$Planet) {
+    # If the planet is not in the training data, add an instance
+    new_instance <- planetary_data[planetary_data$Planet == planet, ]
+    oversampled_train_data <- rbind(oversampled_train_data, new_instance)
+  }
+}
+
+# Train a random forest classifier
+rf_model <- randomForest(Planet ~ Mass + Diameter, data = oversampled_train_data, ntree = 100)
+
+# Make predictions on the test data
+predictions <- predict(rf_model, newdata = test_data)
+
+# Evaluate the model
+accuracy <- sum(predictions == test_data$Planet) / nrow(test_data)
+cat("Accuracy:", accuracy, "\n")
+
+# Create a confusion matrix
+confusion_matrix <- confusionMatrix(predictions, test_data$Planet)
+
+# Create a visually appealing confusion matrix heatmap
+custom_heatmap <- function(cm) {
+  data <- as.data.frame(cm$table)
+  data$Prediction <- factor(data$Prediction, levels = unique(data$Prediction))
+  data$Reference <- factor(data$Reference, levels = unique(data$Reference))
+  ggplot(data, aes(x = Reference, y = Prediction, fill = Freq)) +
+    geom_tile() +
+    scale_fill_gradient(low = "white", high = "blue") +
+    geom_text(aes(label = sprintf("%.2f", Freq)), vjust = 1) +
+    labs(title = "Confusion Matrix Heatmap", x = "Reference", y = "Prediction") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "right")
+}
+
+# Display the custom heatmap
+custom_heatmap(confusion_matrix)
+
+
+```
+
