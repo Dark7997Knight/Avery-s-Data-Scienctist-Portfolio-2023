@@ -1,0 +1,63 @@
+```{r}
+# Cost and selling price information
+initial_cost <- 1.91  # Total cost of the beef brisket
+selling_price <- 16.00  # Selling price per sandwich
+
+# Calculate contribution margin per sandwich
+contribution_margin <- selling_price - initial_cost
+
+# Calculate break-even point in terms of the number of sandwiches
+break_even_sandwiches <- initial_cost / contribution_margin
+
+# Output break-even analysis results
+cat("Break-Even Analysis:\n")
+cat("Initial Cost: $", initial_cost, "\n")
+cat("Selling Price per Sandwich: $", selling_price, "\n")
+cat("Contribution Margin per Sandwich: $", contribution_margin, "\n")
+cat("Break-Even Point (Number of Sandwiches): ", break_even_sandwiches, "\n")
+
+# Round the break-even point to a whole number
+break_even_sandwiches <- ceiling(break_even_sandwiches)
+
+# Display the rounded break-even point
+cat("Rounded Break-Even Point (Number of Sandwiches): ", break_even_sandwiches, "\n")
+```
+
+```{r}
+# Cost and selling price information
+initial_cost <- 1.91  # Total cost of making one sandwich
+selling_price <- 16.00  # Selling price per sandwich
+
+# Calculate contribution margin per sandwich
+contribution_margin <- selling_price - initial_cost
+
+# Calculate break-even point in terms of the number of sandwiches
+break_even_sandwiches <- initial_cost / contribution_margin
+
+# Create a data frame for the break-even analysis
+break_even_data <- data.frame(
+  Category = c("Initial Cost", "Contribution Margin", "Break-Even Point"),
+  Value = c(initial_cost, contribution_margin, break_even_sandwiches)
+)
+
+# Load necessary libraries
+library(ggplot2)
+
+# Create a bar chart
+break_even_chart <- ggplot(break_even_data, aes(x = Category, y = Value, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Break-Even Analysis",
+    x = "Category",
+    y = "Value ($)",
+    fill = "Category"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+# Display the bar chart
+print(break_even_chart)
+```
+
+
+
