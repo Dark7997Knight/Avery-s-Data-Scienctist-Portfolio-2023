@@ -1,0 +1,79 @@
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(viridis)
+library(tidyr)  
+
+# Load the dataset
+BBQ_Business_Research_Analyst_Dataset <- read_csv("BBQ Business Research Analyst Dataset.csv", 
+    col_types = cols(Delivery_person_Age = col_number(), 
+        Time_Ordered = col_time(format = "%M:%S"), 
+        Time_Order_picked = col_time(format = "%M:%S"), 
+        beef_brisket_sandwiches = col_number(), 
+        beef_brisket_burnends = col_number(), 
+        french_fries = col_number(), drinks = col_number(), 
+        reorder_deliveries = col_number(), 
+        Coupons = col_number(), `Time_taken(min)` = col_number()))
+
+# Data Preprocessing
+delivery_data <- BBQ_Business_Research_Analyst_Dataset
+
+# Drop rows with missing values
+delivery_data <- na.omit(delivery_data)
+
+# Distribution Analysis
+# Draw histograms of numerical fields using the viridis palette
+histograms <- ggplot(data = delivery_data) +
+  geom_histogram(aes(x = `Time_taken(min)`, fill = "Time"), binwidth = 2) +
+  scale_fill_viridis(discrete = TRUE) +
+  labs(title = "Distribution of Time Taken (min)", x = "Time Taken (min)", y = "Frequency")
+
+print(histograms)
+
+
+
+```
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Load the dataset
+BBQ_Business_Research_Analyst_Dataset <- read_csv("BBQ Business Research Analyst Dataset.csv", 
+    col_types = cols(Delivery_person_Age = col_number(), 
+        Time_Ordered = col_time(format = "%M:%S"), 
+        Time_Order_picked = col_time(format = "%M:%S"), 
+        beef_brisket_sandwiches = col_number(), 
+        beef_brisket_burnends = col_number(), 
+        french_fries = col_number(), drinks = col_number(), 
+        reorder_deliveries = col_number(), 
+        Coupons = col_number(), `Time_taken(min)` = col_number()))
+
+# Data Preprocessing
+delivery_data <- BBQ_Business_Research_Analyst_Dataset
+
+# Drop rows with missing values
+delivery_data <- na.omit(delivery_data)
+
+# Create a data frame for product types and their respective delivery times
+product_data <- delivery_data %>%
+  select(beef_brisket_sandwiches, beef_brisket_burnends, french_fries, reorder_deliveries, Coupons, `Time_taken(min)`)
+
+# Reshape the data for plotting
+product_data <- product_data %>%
+  pivot_longer(cols = -`Time_taken(min)`, names_to = "Product", values_to = "Delivery_Time")
+
+# Create a histogram comparing delivery times for different product types
+histograms <- ggplot(data = product_data) +
+  geom_histogram(aes(x = Delivery_Time, fill = Product), binwidth = 2, position = "dodge") +
+  labs(title = "Comparison of Delivery Times by Product Type", x = "Time Taken (min)", y = "Frequency") +
+  scale_fill_brewer(palette = "Set1")
+
+print(histograms)
+```
+
+
