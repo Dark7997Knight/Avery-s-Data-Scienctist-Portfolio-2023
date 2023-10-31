@@ -1,0 +1,73 @@
+---
+title: "Market Segments of BBQ Restaurant"
+author: "Avery Holloman"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+
+# Define data
+segments <- c("Single-family households", "Multi-family households", "White-collar workers", "Others")
+percentages <- c(40, 30, 20, 10)
+
+# Create a data frame
+data <- data.frame(segments, percentages)
+
+# Create a pie chart
+ggplot(data, aes(x = "", y = percentages, fill = segments)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  labs(title = "Market Segments in the Vicinity",
+       subtitle = "Distribution by Segment",
+       fill = "Segments") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+```
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+
+# Define data
+segments <- c("Single-family households", "Multi-family households", "White-collar workers", "Others")
+x_values <- c(1, 2, 3, 4)  # Assign each segment a numerical value
+y_values <- c(40, 30, 20, 10)
+
+# Create a data frame
+data <- data.frame(segments, x_values, y_values)
+
+# Define custom title and label colors
+title_color <- "darkblue"
+subtitle_color <- "red"
+label_color <- "green"
+
+# Create a scatter plot
+scatter_plot <- ggplot(data, aes(x = x_values, y = y_values, color = segments)) +
+  geom_point(size = 3) +
+  
+  # Customize titles and labels with colors
+  labs(
+    title = bquote(atop("Market Segments in the Vicinity", atop(.(title_color), ""))),
+    subtitle = bquote(atop("Distribution by Segment", atop(.(subtitle_color), ""))),
+    x = bquote(atop("Segments", atop(.(label_color), ""))),
+    y = bquote(atop("Percentage", atop(.(label_color), ""))),
+    color = bquote(atop("Segments", atop(.(label_color), "")))
+  ) +
+  
+  # Use bold bright colors
+  theme_minimal() +
+  theme(
+    legend.position = "right",
+    plot.title = element_text(size = 18, color = title_color, face = "bold"),
+    plot.subtitle = element_text(size = 14, color = subtitle_color, face = "bold"),
+    axis.title = element_text(size = 12, color = label_color, face = "bold")
+  )
+
+# Display the scatter plot
+print(scatter_plot)
+```
+
