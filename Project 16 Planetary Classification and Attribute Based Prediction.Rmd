@@ -1,0 +1,48 @@
+---
+title: "Project #16 Planetary Classification and Attribute-Based Prediction in Celestial
+  Science"
+author: "Avery Holloman"
+date: "`r Sys.Date()`"
+output: html_document
+---
+```{r}
+# Load necessary libraries
+library(ggplot2)
+
+# Generate a sample dataset (replace this with your actual data)
+set.seed(123)
+data <- data.frame(
+  celestial_object = c("Earth", "Mars", "Saturn", "Venus", "Jupiter", "Uranus", "Neptune", "Mercury", "Pluto", "Moon"),
+  mass_kg = c(5.97e24, 6.42e23, 5.68e26, 4.87e24, 1.90e27, 8.68e25, 1.02e26, 3.30e23, 1.30e22, 7.34e22)
+)
+
+# Manually specify colors for each celestial object
+colors <- c("red", "blue", "green", "orange", "purple", "pink", "brown", "gray", "cyan", "magenta")
+
+# Create a bar plot with logarithmic scaling
+bar_plot <- ggplot(data, aes(x = celestial_object, y = mass_kg, fill = celestial_object)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Mass of Celestial Objects",
+    x = "Celestial Object",
+    y = "Log Mass (kg)"
+  ) +
+  scale_fill_manual(values = colors) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none",
+    plot.title = element_text(size = 18, color = "darkblue", face = "bold")
+  ) +
+  scale_y_log10()  # Apply logarithmic scaling to the y-axis
+
+print(bar_plot)
+
+
+```
+
+```
+
+```
+
+
