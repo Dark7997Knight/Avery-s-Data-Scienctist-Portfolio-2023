@@ -1,0 +1,72 @@
+```{r}
+# Load required libraries
+library(tidyverse)
+
+# Set the seed for reproducibility
+set.seed(123)
+
+# Generate a larger dataset
+n <- 1000  # Specify the number of rows you want
+
+# Sample data for illustration
+Airline <- sample(c("Air India", "IndiGo", "SpiceJet", "Multiple carriers", "Jet Airways"), n, replace = TRUE)
+Source <- sample(c("Delhi", "Kolkata", "Mumbai", "Chennai", "Bangalore"), n, replace = TRUE)
+Destination <- sample(c("Mumbai", "Hyderabad", "Chennai", "Kolkata", "Bangalore"), n, replace = TRUE)
+Total_Stops <- sample(c("non-stop", "1 stop", "2 stops", "3 stops", "4 stops"), n, replace = TRUE)
+Date_of_Journey <- sample(seq(as.Date('2023-01-01'), as.Date('2023-12-31'), by="days"), n, replace = TRUE)
+Dep_Time <- sample(seq(as.POSIXct("2023-01-01 00:00:00"), as.POSIXct("2023-01-01 23:59:59"), by="hours"), n, replace = TRUE)
+Arrival_Time <- sample(seq(as.POSIXct("2023-01-01 00:00:00"), as.POSIXct("2023-01-01 23:59:59"), by="hours"), n, replace = TRUE)
+Duration <- paste(sample(1:24, n, replace = TRUE), "h", sample(0:59, n, replace = TRUE), "m")
+Price <- sample(5000:15000, n, replace = TRUE)
+
+# Create a data frame
+larger_dataset <- data.frame(Airline, Source, Destination, Total_Stops, Date_of_Journey, Dep_Time, Arrival_Time, Duration, Price)
+
+# Load additional libraries for EDA
+library(ggplot2)
+
+# Set custom color palette for the visualizations
+custom_palette <- c("#FF6F61", "#FFBF00", "#2EC4B6", "#900C3F", "#6647D4", "#EAE2B7")
+
+# Create a histogram of flight prices with custom colors
+ggplot(larger_dataset, aes(x = Price)) +
+  geom_histogram(binwidth = 500, fill = custom_palette[1], color = "black") +
+  labs(x = "Price", y = "Frequency") +
+  ggtitle("Distribution of Flight Prices")
+
+# Explore the relationship between Total_Stops and Price with custom colors
+ggplot(larger_dataset, aes(x = Total_Stops, y = Price)) +
+  geom_boxplot(fill = custom_palette[2]) +
+  labs(x = "Total Stops", y = "Price") +
+  ggtitle("Flight Price by Total Stops")
+
+# Create a scatter plot of Duration_hours vs. Price with custom colors
+larger_dataset$Duration <- gsub("h|m", "", larger_dataset$Duration)
+larger_dataset$Duration <- as.numeric(larger_dataset$Duration)
+ggplot(larger_dataset, aes(x = Duration, y = Price)) +
+  geom_point(color = custom_palette[3]) +
+  labs(x = "Duration (minutes)", y = "Price") +
+  ggtitle("Flight Price vs. Duration")
+
+# Explore the distribution of airlines with custom colors
+ggplot(larger_dataset, aes(x = Airline)) +
+  geom_bar(fill = custom_palette[4]) +
+  labs(x = "Airline", y = "Count") +
+  ggtitle("Distribution of Airlines")
+
+# Time series plot of Price by Date_of_Journey with custom colors
+ggplot(larger_dataset, aes(x = Date_of_Journey, y = Price)) +
+  geom_line(color = custom_palette[5]) +
+  labs(x = "Date of Journey", y = "Price") +
+  ggtitle("Flight Price Over Time")
+
+# Correlation heatmap with custom colors
+correlation_matrix <- cor(larger_dataset[, c("Duration", "Price")])
+ggplot(data = as.data.frame(as.table(correlation_matrix)), aes(Var1, Var2, fill = Freq)) +
+  geom_tile() +
+  scale_fill_gradient(low = custom_palette[6], high = "red") +
+  labs(x = "Variable 1", y = "Variable 2") +
+  ggtitle("Correlation Heatmap")
+
+```
+
