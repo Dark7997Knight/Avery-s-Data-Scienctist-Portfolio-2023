@@ -1,0 +1,76 @@
+---
+title: "Project #20 Comprehensive Beverage Alcohol Market Analysis Project: A PhD-Level
+  Exploration"
+author: "Avery Holloman"
+date: "`r Sys.Date()`"
+output: html_document
+---
+```{r}
+# Install and load required packages
+install.packages(c("DBI", "RSQLite", "ggplot2"))
+library(DBI)
+library(ggplot2)
+
+# Connect to an SQLite in-memory database (replace with your database connection details)
+con <- dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+
+# Sample SQL code for creating a table for Net Sales
+sql_create_table <- "
+CREATE TABLE IF NOT EXISTS Net_Sales (
+    Year_Ended DATE,
+    Segment VARCHAR(20),
+    Category VARCHAR(20),
+    Amount DECIMAL(10, 2)
+);
+"
+
+# Execute the SQL code to create the Net_Sales table
+dbExecute(con, sql_create_table)
+
+# Sample SQL code for inserting data into the Net_Sales table
+sql_insert_data <- "
+INSERT INTO Net_Sales (Year_Ended, Segment, Category, Amount)
+VALUES
+    ('2022-02-28', 'Beer', 'Net Sales', 6751.6),
+    ('2022-02-28', 'Wine and Spirits', 'Wine', 1819.3),
+    ('2022-02-28', 'Wine and Spirits', 'Spirits', 249.8),
+    ('2022-02-28', 'Wine and Spirits', 'Total Wine and Spirits', 2069.1),
+    ('2022-02-28', 'Canopy', 'Net Sales', 444.3),
+    ('2022-02-28', 'Consolidation and Eliminations', 'Eliminations', -444.3),
+    ('2022-02-28', 'Consolidated', 'Net Sales', 8820.7),
+    
+    ('2021-02-28', 'Beer', 'Net Sales', 6074.6),
+    ('2021-02-28', 'Wine and Spirits', 'Wine', 2208.4),
+    ('2021-02-28', 'Wine and Spirits', 'Spirits', 331.9),
+    ('2021-02-28', 'Wine and Spirits', 'Total Wine and Spirits', 2540.3),
+    ('2021-02-28', 'Canopy', 'Net Sales', 378.6),
+    ('2021-02-28', 'Consolidation and Eliminations', 'Eliminations', -378.6),
+    ('2021-02-28', 'Consolidated', 'Net Sales', 8614.9);
+"
+
+# Execute the SQL code to insert data into the Net_Sales table
+dbExecute(con, sql_insert_data)
+
+# Sample SQL code for selecting data from the Net_Sales table
+sql_select_data <- "SELECT * FROM Net_Sales;"
+
+# Execute the SQL code to select data from the Net_Sales table
+result <- dbGetQuery(con, sql_select_data)
+
+# Print the result
+print(result)
+
+# Create a ggplot2 boxplot
+ggplot(result, aes(x = Year_Ended, y = Amount, fill = Category)) +
+  geom_boxplot() +
+  labs(title = "Net Sales Boxplot",
+       subtitle = "Yearly distribution of Net Sales by Category",
+       x = "Year Ended",
+       y = "Amount",
+       fill = "Category") +
+  theme_minimal()
+
+# Close the database connection
+dbDisconnect(con)
+
+```
